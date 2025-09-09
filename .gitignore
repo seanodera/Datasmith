@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.Python
+.venv/
+backend-py/.venv/
+
+# --- Node / React ---
+node_modules/
+frontend-ts/node_modules/
+dist/
+.vite/
+*.log
+
+# --- Environment & Config ---
+.env
+.env.local
+.env.*.local
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+*.pid
+*.seed
+*.pid.lock

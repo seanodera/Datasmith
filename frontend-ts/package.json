@@ -11,15 +11,21 @@
   },
   "dependencies": {
     "@ant-design/icons": "^6.0.1",
+    "@reduxjs/toolkit": "^2.9.0",
     "antd": "^5.27.3",
+    "axios": "^1.11.0",
     "framer-motion": "^12.23.12",
+    "papaparse": "^5.5.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.8.2",
     "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
     "@tailwindcss/vite": "^4.1.13",
+    "@types/papaparse": "^5.3.16",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",

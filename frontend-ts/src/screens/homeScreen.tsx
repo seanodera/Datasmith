@@ -1,3 +1,4 @@
+import { resetState, setUploadFile, UploadFileAsync, useAppDispatch, useAppSelector } from "@/store";
 import {
   CloudUploadOutlined,
   FileExcelFilled,
@@ -12,16 +13,16 @@ import {
   Progress,
 } from "antd";
 import { UploadFile } from "antd/es/upload";
-import { useState } from "react";
+import { useNavigate } from "react-router";
 
 const { Title, Text } = Typography;
 const { Dragger } = Upload;
 
 const HomeScreen = () => {
-  const [currentFile, setCurrentFile] = useState<File | null>(null);
-  const [uploadProgress, setUploadProgress] = useState<number>(20);
+    const dispatch = useAppDispatch();
+  const {progress,currentFile} = useAppSelector((state) => state.main);
+  const navigate = useNavigate();
   const MAX_FILE_SIZE_MB = 10; // set limit here
-
   const props = {
     name: "file",
     multiple: false,
@@ -47,23 +48,22 @@ const HomeScreen = () => {
       }
 
       console.log("File ready:", file);
-      setCurrentFile(file);
-      setUploadProgress(0);
+      dispatch(setUploadFile(file));
       return false; // prevent auto-upload for now
     },
     onChange(info: { file: UploadFile; fileList: UploadFile[] }) {
       const { status, name, percent } = info.file;
 
       if (percent) {
-        setUploadProgress(Math.floor(percent));
+        // setUploadProgress(Math.floor(percent));
       }
 
       if (status === "done") {
         message.success(`${name} file uploaded successfully.`);
-        setUploadProgress(100);
+        // setUploadProgress(100);
       } else if (status === "error") {
         message.error(`${name} file upload failed.`);
-        setUploadProgress(0);
+        // setUploadProgress(0);
       }
     },
   };
@@ -87,12 +87,12 @@ const HomeScreen = () => {
           </div>
 
           {/* Progress bar */}
-          {uploadProgress > 0 && (
+          {progress > 0 && (
             <div className="w-full mt-6">
               <Progress
-                percent={uploadProgress}
+                percent={progress}
                 status={
-                  uploadProgress === 100 ? "success" : "active"
+                  progress === 100 ? "success" : "active"
                 }
               />
             </div>
@@ -105,7 +105,16 @@ const HomeScreen = () => {
               onClick={() => {
                 // TODO: hook into backend upload via Fetch or Axios
                 message.info("Sending file to backend...");
-              }}
+                dispatch(UploadFileAsync(currentFile)).then((action) => {
+                  if (action.meta.requestStatus === "fulfilled") {
+                    message.success("File analyzed successfully!");
+                    navigate("/analysis");
+                  } else {
+                    message.error(
+                      `Analysis failed: ${action.payload || 'Unknown error'}`
+                    );
+                  }
+              })}}
             >
               Proceed
             </Button>
@@ -113,8 +122,8 @@ const HomeScreen = () => {
               danger
               className="mt-4"
               onClick={() => {
-                setCurrentFile(null);
-                setUploadProgress(0);
+                dispatch(resetState());
+                message.info("Upload canceled.");
               }}
             >
               Cancel
@@ -137,6 +146,14 @@ const HomeScreen = () => {
           </Dragger>
         </Card>
       )}
+        {/* {results && (<Card className="!max-w-screen-md !w-full p-8 mt-4 shadow-xl">
+          <Title level={4}>Analysis Results</Title>
+          {Object.entries(results).map(([key, value]) => (
+            <Text key={key} className="block">
+              <strong>{key}:</strong> {value === null ? 'N/A' : value.toString()}
+            </Text>
+          ))}
+        </Card>)} */}
     </div>
   );
 };
