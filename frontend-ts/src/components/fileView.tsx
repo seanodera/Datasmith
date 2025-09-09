@@ -7,8 +7,7 @@ export default function FileView() {
     const {currentFile,header,skipEmptyLines} = useAppSelector((state) => state.main);
       const [data, setData] = useState<Record<string,string|number>[]| unknown[]>([]);
   const [columns, setColumns] = useState<{ title: string; dataIndex: string; key: string; }[]>([]);
-
-
+  const [perPage, setPerPage] = useState(10);
 useEffect(() => {
     if (!currentFile) return;
      Papa.parse(currentFile, {
@@ -34,6 +33,9 @@ useEffect(() => {
   className="mt-4"
         dataSource={data}
         columns={columns}
-        pagination={{ pageSize: 10 }}
+        pagination={{ pageSize: perPage, onShowSizeChange(_, size) {
+            setPerPage(size);
+        }, }}
+        
         scroll={{ x: true }}/></div>;
 }

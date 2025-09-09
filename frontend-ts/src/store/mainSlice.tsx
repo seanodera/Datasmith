@@ -6,6 +6,7 @@ interface MainState {
   analysisData: null | AnalysisResponse;
   header: boolean, // first row = column headers
   skipEmptyLines: boolean,
+  theme: 'light' | 'dark',
   currentFile: null | File;
   loading: boolean;
   error: null | string;
@@ -20,6 +21,7 @@ const initialState: MainState = {
   loading: false,
   error: null,
   progress: 0,
+  theme: "light"
 };
 
 // Async thunk with Axios upload progress
@@ -87,6 +89,9 @@ const MainSlice = createSlice({
     setProgress(state, action: PayloadAction<number>) {
       state.progress = action.payload;
     },
+    setTheme(state, action: PayloadAction<'light' | 'dark'>) {
+      state.theme = action.payload;
+    },
     resetState(state) {
       state.analysisData = null;
       state.currentFile = null;
@@ -115,5 +120,5 @@ const MainSlice = createSlice({
 });
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const { setUploadFile, setProgress, resetState,setFileOptions } = MainSlice.actions;
+export const { setUploadFile, setProgress, resetState,setFileOptions,setTheme } = MainSlice.actions;
 export default MainSlice.reducer;

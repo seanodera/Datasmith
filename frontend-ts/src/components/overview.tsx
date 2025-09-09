@@ -14,8 +14,9 @@ export default function Overview() {
     analysisData.results;
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
-      {/* File Details */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div>
+                  {/* File Details */}
       <Card>
         <Title level={4}>File Details</Title>
         <Descriptions column={1} bordered size="small">
@@ -39,8 +40,10 @@ export default function Overview() {
           </Descriptions.Item>
         </Descriptions>
       </Card>
+        </div>
 
-      {/* Numerical Columns */}
+      <div>
+        {/* Numerical Columns */}
       <Card>
         <Title level={4}>Numerical Columns Summary</Title>
         {Object.keys(numerical_analysis).length === 0 ? (
@@ -83,8 +86,10 @@ export default function Overview() {
           ))
         )}
       </Card>
+      </div>
 
-      {/* Categorical Columns */}
+      <div>
+        {/* Categorical Columns */}
       <Card>
         <Title level={4}>Categorical Columns Summary</Title>
         {Object.keys(categorical_analysis).length === 0 ? (
@@ -113,6 +118,7 @@ export default function Overview() {
           ))
         )}
       </Card>
+      </div>
     </div>
   );
 }

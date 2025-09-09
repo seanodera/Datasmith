@@ -1,11 +1,20 @@
 @import "tailwindcss";
 
+/* Override dark mode to use data-theme */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 @theme {
     --color-primary: #0E0211;
-    --color-accent: #FF3300
+    --color-accent: #FF3300;
+    --color-dark-bg: #0a0a0a;
+    --color-dark: #040100;
+    --color-light-bg: #f5f5f5;
 }
 
 :root {
     --color-accent: #FF3300;
     --color-primary: #0E0211;
+    --color-dark-bg: #0a0a0a;
+    --color-dark: #040100;
+    --color-light-bg: #f5f5f5;
 }
