@@ -1,0 +1,1001 @@
+flight_number,airline_name,departure_airport,departure_city,departure_country,departure_time,arrival_airport,arrival_city,duration_hours
+CX5044,Cathay Pacific,Hong Kong International,Hong Kong,China,3:08 AM,Changi,Singapore,15.78
+AM3135,Aeroméxico,Benito Juárez International,Mexico City,Mexico,3:24 PM,O'Hare International,Chicago,12.41
+ET7859,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,2:28 PM,Hamad International,Doha,1.56
+SK9763,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,12:15 AM,Charles de Gaulle,Paris,19.81
+AF9732,Air France,Charles de Gaulle,Paris,France,5:05 AM,Hamad International,Doha,11.48
+AC3232,Air Canada,Toronto Pearson,Toronto,Canada,3:13 AM,John F. Kennedy International,New York,7.87
+BA7786,British Airways,Heathrow,London,UK,8:49 AM,Charles de Gaulle,Paris,6.06
+DL6420,Delta Air Lines,John F. Kennedy International,New York,USA,7:39 PM,Hartsfield-Jackson Atlanta,Atlanta,14.72
+UA8491,United Airlines,Los Angeles International,Los Angeles,USA,1:32 PM,San Francisco International,San Francisco,15.7
+TG7636,Thai Airways,Suvarnabhumi,Bangkok,Thailand,1:42 PM,Changi,Singapore,7.07
+DL1309,Delta Air Lines,John F. Kennedy International,New York,USA,6:01 PM,Denver International,Denver,3.18
+QR3479,Qatar Airways,Hamad International,Doha,Qatar,8:52 AM,Bole International,Addis Ababa,19.99
+QF4326,Qantas,Sydney Airport,Sydney,Australia,3:48 PM,Melbourne Airport,Melbourne,4.8
+SK9731,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,2:51 AM,Charles de Gaulle,Paris,16.22
+LA5411,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,2:28 AM,Ministro Pistarini International,Buenos Aires,7.79
+AZ3815,Alitalia,Leonardo da Vinci International,Rome,Italy,9:56 PM,Frankfurt Airport,Frankfurt,20.56
+SA8464,South African Airways,O.R. Tambo International,Johannesburg,South Africa,8:43 PM,Charles de Gaulle,Paris,1.66
+AA5136,American Airlines,John F. Kennedy International,New York,USA,8:52 AM,Hartsfield-Jackson Atlanta,Atlanta,22.05
+SQ2197,Singapore Airlines,Changi,Singapore,Singapore,8:38 AM,Beijing Capital International,Beijing,17.2
+AI2188,Air India,Indira Gandhi International,Delhi,India,8:04 AM,Chhatrapati Shivaji International,Mumbai,5.58
+AM1862,Aeroméxico,Benito Juárez International,Mexico City,Mexico,7:11 PM,Arturo Merino Benítez International,Santiago,16.8
+AA4623,American Airlines,John F. Kennedy International,New York,USA,10:17 AM,Dallas/Fort Worth International,Dallas,20.57
+QR6105,Qatar Airways,Hamad International,Doha,Qatar,1:22 PM,Bole International,Addis Ababa,18.86
+AM4372,Aeroméxico,Benito Juárez International,Mexico City,Mexico,8:42 AM,O'Hare International,Chicago,14.17
+WN9889,Southwest Airlines,Los Angeles International,Los Angeles,USA,7:31 PM,San Francisco International,San Francisco,10.05
+AI6681,Air India,Indira Gandhi International,Delhi,India,12:08 PM,Chhatrapati Shivaji International,Mumbai,14.69
+BA6603,British Airways,Heathrow,London,UK,6:09 AM,Copenhagen Airport,Copenhagen,3.88
+LA9846,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,11:25 PM,Ministro Pistarini International,Buenos Aires,3.95
+AF6240,Air France,Charles de Gaulle,Paris,France,1:38 PM,Frankfurt Airport,Frankfurt,19.58
+KL3711,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,1:39 PM,Charles de Gaulle,Paris,20.33
+KE3093,Korean Air,Incheon International,Seoul,South Korea,12:51 PM,O.R. Tambo International,Johannesburg,20.09
+DL6351,Delta Air Lines,John F. Kennedy International,New York,USA,7:00 PM,Hartsfield-Jackson Atlanta,Atlanta,16.99
+SQ8281,Singapore Airlines,Changi,Singapore,Singapore,12:45 PM,Amsterdam Airport Schiphol,Amsterdam,6.03
+SK2512,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,11:01 AM,Charles de Gaulle,Paris,13.96
+SQ5198,Singapore Airlines,Changi,Singapore,Singapore,7:09 PM,Beijing Capital International,Beijing,20.75
+BA5740,British Airways,Heathrow,London,UK,2:44 PM,Charles de Gaulle,Paris,12.8
+UA1633,United Airlines,Los Angeles International,Los Angeles,USA,11:38 AM,San Francisco International,San Francisco,8.76
+DL9459,Delta Air Lines,John F. Kennedy International,New York,USA,5:20 PM,Hartsfield-Jackson Atlanta,Atlanta,8.51
+LA6020,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,1:04 AM,Ministro Pistarini International,Buenos Aires,2.61
+AV8059,Avianca,El Dorado International,Bogotá,Colombia,6:36 PM,O'Hare International,Chicago,8.57
+LA9049,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,2:49 AM,Ministro Pistarini International,Buenos Aires,17.7
+ET7315,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,2:24 AM,Hamad International,Doha,1.11
+IB8526,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,8:18 PM,Charles de Gaulle,Paris,17.66
+NH8860,All Nippon Airways,Haneda,Tokyo,Japan,6:54 AM,Incheon International,Seoul,13.05
+TG8482,Thai Airways,Suvarnabhumi,Bangkok,Thailand,6:10 AM,Changi,Singapore,16.23
+NZ5754,Air New Zealand,Auckland Airport,Auckland,New Zealand,11:28 PM,Melbourne Airport,Melbourne,19.25
+SQ5891,Singapore Airlines,Changi,Singapore,Singapore,12:12 PM,Kuala Lumpur International,Kuala Lumpur,11.39
+QF8612,Qantas,Sydney Airport,Sydney,Australia,12:44 PM,Melbourne Airport,Melbourne,8.95
+DL8128,Delta Air Lines,John F. Kennedy International,New York,USA,1:51 PM,Hartsfield-Jackson Atlanta,Atlanta,17.62
+IB1849,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,9:06 PM,Chhatrapati Shivaji International,Mumbai,13.15
+AZ2467,Alitalia,Leonardo da Vinci International,Rome,Italy,5:33 AM,Vienna International,Vienna,3.72
+AF5759,Air France,Charles de Gaulle,Paris,France,9:58 PM,Frankfurt Airport,Frankfurt,3.58
+KL2728,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,8:41 PM,Charles de Gaulle,Paris,4.7
+LA7114,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,1:36 PM,Ministro Pistarini International,Buenos Aires,16.21
+LH5523,Lufthansa,Frankfurt Airport,Frankfurt,Germany,6:19 PM,Charles de Gaulle,Paris,7.18
+AI4924,Air India,Indira Gandhi International,Delhi,India,10:23 AM,Chhatrapati Shivaji International,Mumbai,16.54
+CX7552,Cathay Pacific,Hong Kong International,Hong Kong,China,10:39 AM,Changi,Singapore,21.76
+CX9568,Cathay Pacific,Hong Kong International,Hong Kong,China,11:04 AM,Changi,Singapore,4.49
+WN7987,Southwest Airlines,Los Angeles International,Los Angeles,USA,7:23 AM,John F. Kennedy International,New York,9.08
+SA6582,South African Airways,O.R. Tambo International,Johannesburg,South Africa,12:16 AM,Charles de Gaulle,Paris,16.81
+LH3292,Lufthansa,Frankfurt Airport,Frankfurt,Germany,12:20 PM,Charles de Gaulle,Paris,15.6
+SA9098,South African Airways,O.R. Tambo International,Johannesburg,South Africa,12:03 AM,Jomo Kenyatta International,Nairobi,22.02
+SK5810,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,6:15 PM,Charles de Gaulle,Paris,13.57
+QR7450,Qatar Airways,Hamad International,Doha,Qatar,8:12 AM,Hong Kong International,Hong Kong,23.94
+AA7925,American Airlines,John F. Kennedy International,New York,USA,5:29 PM,Hartsfield-Jackson Atlanta,Atlanta,21.65
+UA2884,United Airlines,Los Angeles International,Los Angeles,USA,8:59 AM,Seattle-Tacoma International,Seattle,21.89
+KL7028,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,6:56 PM,Charles de Gaulle,Paris,16.98
+NZ4265,Air New Zealand,Auckland Airport,Auckland,New Zealand,10:32 PM,Miami International,Miami,7.66
+NZ1813,Air New Zealand,Auckland Airport,Auckland,New Zealand,2:28 PM,Sydney Airport,Sydney,22.52
+EK4642,Emirates,Dubai International,Dubai,UAE,8:49 PM,Hamad International,Doha,5.98
+ET2018,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,12:21 AM,Hamad International,Doha,17.42
+AM3348,Aeroméxico,Benito Juárez International,Mexico City,Mexico,8:45 PM,O'Hare International,Chicago,5.68
+NZ4231,Air New Zealand,Auckland Airport,Auckland,New Zealand,5:58 AM,Sydney Airport,Sydney,17.59
+EK4042,Emirates,Dubai International,Dubai,UAE,6:25 PM,Hamad International,Doha,11.96
+QR6105,Qatar Airways,Hamad International,Doha,Qatar,3:37 PM,Bole International,Addis Ababa,20.04
+KL2768,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,7:01 PM,Charles de Gaulle,Paris,14.38
+NZ2829,Air New Zealand,Auckland Airport,Auckland,New Zealand,3:10 PM,Haneda,Tokyo,5.47
+AZ7649,Alitalia,Leonardo da Vinci International,Rome,Italy,11:09 PM,Charles de Gaulle,Paris,22.25
+KL7951,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,9:44 AM,Charles de Gaulle,Paris,19.11
+AF2120,Air France,Charles de Gaulle,Paris,France,2:38 AM,Frankfurt Airport,Frankfurt,14.7
+NZ5671,Air New Zealand,Auckland Airport,Auckland,New Zealand,8:32 PM,Brisbane Airport,Brisbane,8.36
+AF2033,Air France,Charles de Gaulle,Paris,France,9:07 AM,Amsterdam Airport Schiphol,Amsterdam,18.31
+ET9224,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,4:21 PM,Heathrow,London,4.12
+AF4682,Air France,Charles de Gaulle,Paris,France,5:13 PM,Frankfurt Airport,Frankfurt,14.77
+IB2236,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,7:10 AM,Charles de Gaulle,Paris,4.96
+LA9176,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,12:57 AM,Ministro Pistarini International,Buenos Aires,2.44
+AM9697,Aeroméxico,Benito Juárez International,Mexico City,Mexico,1:35 PM,El Dorado International,Bogotá,3.26
+DL1467,Delta Air Lines,John F. Kennedy International,New York,USA,12:32 PM,Arturo Merino Benítez International,Santiago,4.9
+BA3718,British Airways,Heathrow,London,UK,12:48 AM,Charles de Gaulle,Paris,1.02
+AA7962,American Airlines,John F. Kennedy International,New York,USA,6:00 AM,Logan International,Boston,9.2
+SA6283,South African Airways,O.R. Tambo International,Johannesburg,South Africa,6:33 PM,Charles de Gaulle,Paris,4.25
+LH8063,Lufthansa,Frankfurt Airport,Frankfurt,Germany,1:40 PM,Adolfo Suárez Madrid–Barajas,Madrid,4.89
+SK2196,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,8:50 AM,El Dorado International,Bogotá,18.19
+WN1641,Southwest Airlines,Los Angeles International,Los Angeles,USA,10:54 PM,San Francisco International,San Francisco,17.02
+AZ5926,Alitalia,Leonardo da Vinci International,Rome,Italy,3:13 PM,Charles de Gaulle,Paris,5.87
+AV4401,Avianca,El Dorado International,Bogotá,Colombia,6:10 AM,O'Hare International,Chicago,4.51
+AF9045,Air France,Charles de Gaulle,Paris,France,8:21 PM,Frankfurt Airport,Frankfurt,14.08
+SA8877,South African Airways,O.R. Tambo International,Johannesburg,South Africa,11:51 AM,Bole International,Addis Ababa,17.2
+TG8399,Thai Airways,Suvarnabhumi,Bangkok,Thailand,6:04 PM,Los Angeles International,Los Angeles,18.08
+AZ2658,Alitalia,Leonardo da Vinci International,Rome,Italy,9:28 PM,Charles de Gaulle,Paris,9.8
+AC8831,Air Canada,Toronto Pearson,Toronto,Canada,4:04 AM,John F. Kennedy International,New York,23.0
+AC7423,Air Canada,Toronto Pearson,Toronto,Canada,2:36 AM,John F. Kennedy International,New York,11.61
+BA7616,British Airways,Heathrow,London,UK,12:08 PM,Amsterdam Airport Schiphol,Amsterdam,13.73
+LH3991,Lufthansa,Frankfurt Airport,Frankfurt,Germany,6:16 AM,Charles de Gaulle,Paris,8.04
+LA4286,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,5:45 AM,Ministro Pistarini International,Buenos Aires,13.6
+AI3634,Air India,Indira Gandhi International,Delhi,India,10:05 PM,Chhatrapati Shivaji International,Mumbai,2.21
+SQ9539,Singapore Airlines,Changi,Singapore,Singapore,6:39 PM,Beijing Capital International,Beijing,21.33
+CX7264,Cathay Pacific,Hong Kong International,Hong Kong,China,8:45 PM,Amsterdam Airport Schiphol,Amsterdam,2.99
+KE7714,Korean Air,Incheon International,Seoul,South Korea,7:38 AM,Haneda,Tokyo,9.61
+SK4630,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,2:14 PM,Adolfo Suárez Madrid–Barajas,Madrid,8.9
+AV3870,Avianca,El Dorado International,Bogotá,Colombia,2:57 PM,Denver International,Denver,4.3
+LH9879,Lufthansa,Frankfurt Airport,Frankfurt,Germany,8:05 PM,Charles de Gaulle,Paris,7.74
+LH3929,Lufthansa,Frankfurt Airport,Frankfurt,Germany,11:22 PM,Munich Airport,Munich,2.36
+AC6547,Air Canada,Toronto Pearson,Toronto,Canada,3:15 AM,John F. Kennedy International,New York,23.13
+IB7456,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,1:29 PM,Charles de Gaulle,Paris,20.82
+CX7004,Cathay Pacific,Hong Kong International,Hong Kong,China,1:47 PM,Changi,Singapore,5.3
+BA6452,British Airways,Heathrow,London,UK,3:34 PM,Charles de Gaulle,Paris,7.25
+AM1862,Aeroméxico,Benito Juárez International,Mexico City,Mexico,12:08 AM,Arturo Merino Benítez International,Santiago,22.84
+AV9889,Avianca,El Dorado International,Bogotá,Colombia,7:34 PM,O'Hare International,Chicago,16.41
+SQ1339,Singapore Airlines,Changi,Singapore,Singapore,1:50 PM,Beijing Capital International,Beijing,19.12
+KE7584,Korean Air,Incheon International,Seoul,South Korea,7:36 AM,Chhatrapati Shivaji International,Mumbai,12.35
+DL5432,Delta Air Lines,John F. Kennedy International,New York,USA,2:03 PM,Hartsfield-Jackson Atlanta,Atlanta,12.87
+QR6336,Qatar Airways,Hamad International,Doha,Qatar,3:33 AM,Bole International,Addis Ababa,15.21
+QR1864,Qatar Airways,Hamad International,Doha,Qatar,8:54 PM,Bole International,Addis Ababa,23.56
+KE2894,Korean Air,Incheon International,Seoul,South Korea,6:19 PM,Miami International,Miami,2.78
+AV3592,Avianca,El Dorado International,Bogotá,Colombia,9:21 PM,O'Hare International,Chicago,18.89
+AC7067,Air Canada,Toronto Pearson,Toronto,Canada,11:34 AM,John F. Kennedy International,New York,12.27
+BA3644,British Airways,Heathrow,London,UK,12:44 AM,Beijing Capital International,Beijing,6.86
+AF7900,Air France,Charles de Gaulle,Paris,France,8:07 PM,Frankfurt Airport,Frankfurt,5.77
+WN9844,Southwest Airlines,Los Angeles International,Los Angeles,USA,11:15 AM,San Francisco International,San Francisco,19.07
+IB7772,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,9:07 PM,Charles de Gaulle,Paris,8.25
+LH3929,Lufthansa,Frankfurt Airport,Frankfurt,Germany,6:54 PM,Munich Airport,Munich,20.68
+NZ5050,Air New Zealand,Auckland Airport,Auckland,New Zealand,11:23 PM,Haneda,Tokyo,7.97
+NZ9286,Air New Zealand,Auckland Airport,Auckland,New Zealand,9:56 AM,Sydney Airport,Sydney,22.22
+SK7829,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,6:11 PM,Charles de Gaulle,Paris,5.4
+SA8898,South African Airways,O.R. Tambo International,Johannesburg,South Africa,5:18 AM,Charles de Gaulle,Paris,11.33
+AI9055,Air India,Indira Gandhi International,Delhi,India,8:26 AM,Chhatrapati Shivaji International,Mumbai,23.79
+AF3394,Air France,Charles de Gaulle,Paris,France,12:35 PM,Amsterdam Airport Schiphol,Amsterdam,22.35
+KL5959,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,2:55 PM,Charles de Gaulle,Paris,22.86
+QR6945,Qatar Airways,Hamad International,Doha,Qatar,11:17 AM,Adolfo Suárez Madrid–Barajas,Madrid,16.36
+AV5015,Avianca,El Dorado International,Bogotá,Colombia,11:10 PM,John F. Kennedy International,New York,23.33
+UA3003,United Airlines,Los Angeles International,Los Angeles,USA,11:28 PM,Dallas/Fort Worth International,Dallas,5.57
+AZ5740,Alitalia,Leonardo da Vinci International,Rome,Italy,1:26 AM,O'Hare International,Chicago,15.75
+SA3924,South African Airways,O.R. Tambo International,Johannesburg,South Africa,3:04 AM,Leonardo da Vinci International,Rome,12.58
+QR9778,Qatar Airways,Hamad International,Doha,Qatar,7:50 AM,Bole International,Addis Ababa,22.39
+AZ1726,Alitalia,Leonardo da Vinci International,Rome,Italy,12:10 PM,Frankfurt Airport,Frankfurt,20.22
+EK5416,Emirates,Dubai International,Dubai,UAE,2:25 PM,Hamad International,Doha,14.28
+KL7531,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,5:39 PM,Charles de Gaulle,Paris,6.76
+DL2791,Delta Air Lines,John F. Kennedy International,New York,USA,3:00 PM,São Paulo/Guarulhos International,São Paulo,8.96
+NZ2679,Air New Zealand,Auckland Airport,Auckland,New Zealand,10:38 PM,Sydney Airport,Sydney,1.25
+CX7308,Cathay Pacific,Hong Kong International,Hong Kong,China,7:24 PM,Changi,Singapore,16.54
+LA4286,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,10:29 PM,Ministro Pistarini International,Buenos Aires,13.07
+AF4074,Air France,Charles de Gaulle,Paris,France,6:56 AM,Frankfurt Airport,Frankfurt,10.62
+AM1013,Aeroméxico,Benito Juárez International,Mexico City,Mexico,11:35 AM,Denver International,Denver,8.5
+AZ4962,Alitalia,Leonardo da Vinci International,Rome,Italy,10:48 PM,Charles de Gaulle,Paris,5.69
+DL2579,Delta Air Lines,John F. Kennedy International,New York,USA,2:30 AM,San Francisco International,San Francisco,8.33
+BA8910,British Airways,Heathrow,London,UK,12:37 PM,John F. Kennedy International,New York,9.7
+SK9581,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,7:18 AM,Charles de Gaulle,Paris,17.67
+SK6106,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,6:40 AM,Charles de Gaulle,Paris,20.97
+QR7630,Qatar Airways,Hamad International,Doha,Qatar,7:50 AM,Bole International,Addis Ababa,12.6
+AA4128,American Airlines,John F. Kennedy International,New York,USA,6:27 AM,Hartsfield-Jackson Atlanta,Atlanta,16.41
+AI3081,Air India,Indira Gandhi International,Delhi,India,5:06 PM,Hong Kong International,Hong Kong,2.19
+AZ2894,Alitalia,Leonardo da Vinci International,Rome,Italy,8:24 AM,Copenhagen Airport,Copenhagen,22.94
+QR9225,Qatar Airways,Hamad International,Doha,Qatar,11:48 AM,Bole International,Addis Ababa,1.52
+IB8526,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,9:50 PM,Charles de Gaulle,Paris,18.22
+AA4866,American Airlines,John F. Kennedy International,New York,USA,7:50 PM,Miami International,Miami,7.69
+NZ3507,Air New Zealand,Auckland Airport,Auckland,New Zealand,9:51 AM,Changi,Singapore,11.12
+TG8460,Thai Airways,Suvarnabhumi,Bangkok,Thailand,3:40 PM,Kuala Lumpur International,Kuala Lumpur,18.72
+SQ1726,Singapore Airlines,Changi,Singapore,Singapore,2:15 PM,El Dorado International,Bogotá,18.8
+IB7069,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,8:31 PM,Charles de Gaulle,Paris,17.86
+AF3446,Air France,Charles de Gaulle,Paris,France,7:43 PM,Adolfo Suárez Madrid–Barajas,Madrid,13.09
+AZ1037,Alitalia,Leonardo da Vinci International,Rome,Italy,8:37 AM,Charles de Gaulle,Paris,1.58
+AM3012,Aeroméxico,Benito Juárez International,Mexico City,Mexico,1:36 AM,O'Hare International,Chicago,19.07
+AI1169,Air India,Indira Gandhi International,Delhi,India,7:22 AM,Changi,Singapore,13.24
+QR5985,Qatar Airways,Hamad International,Doha,Qatar,2:19 AM,Bole International,Addis Ababa,15.49
+AA6083,American Airlines,John F. Kennedy International,New York,USA,11:01 AM,Stockholm Arlanda,Stockholm,12.89
+AF4630,Air France,Charles de Gaulle,Paris,France,8:26 AM,Frankfurt Airport,Frankfurt,13.57
+QR4567,Qatar Airways,Hamad International,Doha,Qatar,7:55 PM,Bole International,Addis Ababa,13.39
+ET6738,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,7:07 AM,Hamad International,Doha,19.84
+CX5044,Cathay Pacific,Hong Kong International,Hong Kong,China,6:48 AM,Changi,Singapore,16.58
+QF8191,Qantas,Sydney Airport,Sydney,Australia,3:23 PM,Melbourne Airport,Melbourne,18.18
+BA6981,British Airways,Heathrow,London,UK,10:49 AM,Charles de Gaulle,Paris,23.69
+QF4776,Qantas,Sydney Airport,Sydney,Australia,9:08 AM,Jomo Kenyatta International,Nairobi,17.68
+QF4930,Qantas,Sydney Airport,Sydney,Australia,5:23 PM,Stockholm Arlanda,Stockholm,17.94
+NH7272,All Nippon Airways,Haneda,Tokyo,Japan,10:59 AM,Changi,Singapore,14.37
+NH4813,All Nippon Airways,Haneda,Tokyo,Japan,6:44 AM,Incheon International,Seoul,15.67
+KL5908,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,6:59 AM,Charles de Gaulle,Paris,10.95
+KE4345,Korean Air,Incheon International,Seoul,South Korea,11:52 AM,Haneda,Tokyo,19.01
+KL9883,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,11:09 AM,Charles de Gaulle,Paris,7.58
+SK9879,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,3:02 AM,Charles de Gaulle,Paris,6.54
+EK2108,Emirates,Dubai International,Dubai,UAE,8:11 AM,Hamad International,Doha,15.53
+AI7579,Air India,Indira Gandhi International,Delhi,India,8:40 AM,Chhatrapati Shivaji International,Mumbai,19.36
+LA9044,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,8:47 AM,Benito Juárez International,Mexico City,22.26
+AV6230,Avianca,El Dorado International,Bogotá,Colombia,5:31 PM,O'Hare International,Chicago,11.96
+NZ9726,Air New Zealand,Auckland Airport,Auckland,New Zealand,12:40 PM,Melbourne Airport,Melbourne,11.98
+KE4039,Korean Air,Incheon International,Seoul,South Korea,3:47 AM,Auckland Airport,Auckland,2.12
+QF6150,Qantas,Sydney Airport,Sydney,Australia,2:20 AM,Melbourne Airport,Melbourne,12.5
+AZ8773,Alitalia,Leonardo da Vinci International,Rome,Italy,8:12 PM,Charles de Gaulle,Paris,10.42
+QR6265,Qatar Airways,Hamad International,Doha,Qatar,8:39 AM,Leonardo da Vinci International,Rome,14.03
+KE1522,Korean Air,Incheon International,Seoul,South Korea,12:24 AM,Haneda,Tokyo,12.57
+AI6387,Air India,Indira Gandhi International,Delhi,India,7:16 PM,Chhatrapati Shivaji International,Mumbai,17.59
+IB1902,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,1:29 AM,Charles de Gaulle,Paris,13.44
+AF1538,Air France,Charles de Gaulle,Paris,France,6:46 AM,Frankfurt Airport,Frankfurt,8.92
+DL1375,Delta Air Lines,John F. Kennedy International,New York,USA,9:26 AM,Hartsfield-Jackson Atlanta,Atlanta,15.55
+AV6190,Avianca,El Dorado International,Bogotá,Colombia,5:02 AM,Jorge Chávez International,Lima,1.98
+WN3689,Southwest Airlines,Los Angeles International,Los Angeles,USA,11:29 PM,O'Hare International,Chicago,7.57
+LA9660,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,5:47 AM,Ministro Pistarini International,Buenos Aires,3.92
+SQ6690,Singapore Airlines,Changi,Singapore,Singapore,9:29 AM,Beijing Capital International,Beijing,10.42
+ET8142,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,8:11 AM,Chhatrapati Shivaji International,Mumbai,16.85
+WN8141,Southwest Airlines,Los Angeles International,Los Angeles,USA,1:04 PM,San Francisco International,San Francisco,23.89
+IB7758,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,10:12 AM,Charles de Gaulle,Paris,13.36
+AV7071,Avianca,El Dorado International,Bogotá,Colombia,10:49 PM,O'Hare International,Chicago,23.12
+SQ1240,Singapore Airlines,Changi,Singapore,Singapore,12:32 AM,Adolfo Suárez Madrid–Barajas,Madrid,17.78
+BA7617,British Airways,Heathrow,London,UK,3:19 AM,Charles de Gaulle,Paris,6.02
+LA3981,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,5:59 PM,Ministro Pistarini International,Buenos Aires,9.84
+EK7708,Emirates,Dubai International,Dubai,UAE,12:17 PM,Hamad International,Doha,17.66
+IB1779,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,10:56 PM,Copenhagen Airport,Copenhagen,19.44
+IB7456,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,8:49 AM,Charles de Gaulle,Paris,15.49
+AM5855,Aeroméxico,Benito Juárez International,Mexico City,Mexico,4:45 AM,O'Hare International,Chicago,9.65
+QF4447,Qantas,Sydney Airport,Sydney,Australia,5:05 AM,Melbourne Airport,Melbourne,3.15
+SQ2917,Singapore Airlines,Changi,Singapore,Singapore,12:28 PM,Beijing Capital International,Beijing,20.18
+SQ9239,Singapore Airlines,Changi,Singapore,Singapore,11:51 AM,Beijing Capital International,Beijing,11.5
+AZ2628,Alitalia,Leonardo da Vinci International,Rome,Italy,2:26 PM,Charles de Gaulle,Paris,9.02
+AV4396,Avianca,El Dorado International,Bogotá,Colombia,3:07 AM,O'Hare International,Chicago,2.48
+QF5881,Qantas,Sydney Airport,Sydney,Australia,6:54 AM,Bole International,Addis Ababa,6.39
+EK5965,Emirates,Dubai International,Dubai,UAE,10:24 PM,Hamad International,Doha,1.31
+LH4515,Lufthansa,Frankfurt Airport,Frankfurt,Germany,10:04 AM,Charles de Gaulle,Paris,20.85
+QR1576,Qatar Airways,Hamad International,Doha,Qatar,11:29 AM,Bole International,Addis Ababa,11.98
+WN5669,Southwest Airlines,Los Angeles International,Los Angeles,USA,2:11 PM,San Francisco International,San Francisco,23.2
+IB4981,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,10:14 PM,Ministro Pistarini International,Buenos Aires,19.98
+AF8531,Air France,Charles de Gaulle,Paris,France,11:50 PM,Frankfurt Airport,Frankfurt,3.05
+LH6904,Lufthansa,Frankfurt Airport,Frankfurt,Germany,5:51 PM,Charles de Gaulle,Paris,20.21
+NH9718,All Nippon Airways,Haneda,Tokyo,Japan,11:34 AM,Incheon International,Seoul,15.64
+QR7324,Qatar Airways,Hamad International,Doha,Qatar,2:29 PM,Miami International,Miami,3.46
+TG9254,Thai Airways,Suvarnabhumi,Bangkok,Thailand,11:22 PM,Beijing Capital International,Beijing,4.83
+SK9581,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,12:11 PM,Charles de Gaulle,Paris,6.44
+AZ1725,Alitalia,Leonardo da Vinci International,Rome,Italy,1:04 AM,Charles de Gaulle,Paris,2.26
+AM8252,Aeroméxico,Benito Juárez International,Mexico City,Mexico,7:53 PM,O'Hare International,Chicago,14.59
+SK1448,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,10:44 AM,Melbourne Airport,Melbourne,17.01
+QR1765,Qatar Airways,Hamad International,Doha,Qatar,4:17 PM,Adolfo Suárez Madrid–Barajas,Madrid,1.06
+BA2476,British Airways,Heathrow,London,UK,6:38 PM,Adolfo Suárez Madrid–Barajas,Madrid,21.65
+AM6212,Aeroméxico,Benito Juárez International,Mexico City,Mexico,4:57 PM,O'Hare International,Chicago,8.98
+SA2638,South African Airways,O.R. Tambo International,Johannesburg,South Africa,1:02 AM,Charles de Gaulle,Paris,1.6
+AM6967,Aeroméxico,Benito Juárez International,Mexico City,Mexico,10:22 AM,Dallas/Fort Worth International,Dallas,9.22
+LH6315,Lufthansa,Frankfurt Airport,Frankfurt,Germany,2:05 AM,O.R. Tambo International,Johannesburg,15.3
+AM9111,Aeroméxico,Benito Juárez International,Mexico City,Mexico,7:24 AM,O'Hare International,Chicago,17.42
+AM6967,Aeroméxico,Benito Juárez International,Mexico City,Mexico,10:54 PM,Dallas/Fort Worth International,Dallas,16.66
+SK4698,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,2:50 PM,Charles de Gaulle,Paris,11.9
+AZ7021,Alitalia,Leonardo da Vinci International,Rome,Italy,3:16 AM,Charles de Gaulle,Paris,7.49
+CX4393,Cathay Pacific,Hong Kong International,Hong Kong,China,10:33 AM,Changi,Singapore,8.49
+CX8163,Cathay Pacific,Hong Kong International,Hong Kong,China,9:07 PM,Kuala Lumpur International,Kuala Lumpur,2.74
+KL3748,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,8:23 PM,San Francisco International,San Francisco,11.83
+UA4214,United Airlines,Los Angeles International,Los Angeles,USA,11:28 PM,San Francisco International,San Francisco,8.32
+SA2594,South African Airways,O.R. Tambo International,Johannesburg,South Africa,6:42 PM,Charles de Gaulle,Paris,18.36
+AV9215,Avianca,El Dorado International,Bogotá,Colombia,12:52 PM,O'Hare International,Chicago,1.04
+NZ4282,Air New Zealand,Auckland Airport,Auckland,New Zealand,1:57 AM,Beijing Capital International,Beijing,15.07
+AV3166,Avianca,El Dorado International,Bogotá,Colombia,1:00 AM,Benito Juárez International,Mexico City,19.27
+IB5133,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,4:58 AM,Jomo Kenyatta International,Nairobi,6.22
+NZ1208,Air New Zealand,Auckland Airport,Auckland,New Zealand,9:44 PM,Beijing Capital International,Beijing,20.09
+SA9931,South African Airways,O.R. Tambo International,Johannesburg,South Africa,10:51 AM,Charles de Gaulle,Paris,4.93
+AF7550,Air France,Charles de Gaulle,Paris,France,7:14 AM,Leonardo da Vinci International,Rome,2.2
+AA1114,American Airlines,John F. Kennedy International,New York,USA,12:38 PM,Toronto Pearson,Toronto,4.01
+SK5197,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,11:53 PM,Vienna International,Vienna,7.22
+CX9392,Cathay Pacific,Hong Kong International,Hong Kong,China,1:26 AM,Changi,Singapore,23.67
+IB5036,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,7:10 PM,Vancouver International,Vancouver,2.44
+AA1215,American Airlines,John F. Kennedy International,New York,USA,7:47 AM,Hartsfield-Jackson Atlanta,Atlanta,2.7
+EK7739,Emirates,Dubai International,Dubai,UAE,4:07 PM,Hamad International,Doha,15.68
+EK2648,Emirates,Dubai International,Dubai,UAE,7:58 AM,Hamad International,Doha,16.19
+SQ5181,Singapore Airlines,Changi,Singapore,Singapore,4:32 PM,Hong Kong International,Hong Kong,16.63
+IB1555,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,1:05 PM,Charles de Gaulle,Paris,19.24
+AF6122,Air France,Charles de Gaulle,Paris,France,9:56 PM,Brisbane Airport,Brisbane,22.29
+KE2633,Korean Air,Incheon International,Seoul,South Korea,4:26 AM,Ministro Pistarini International,Buenos Aires,19.77
+BA3006,British Airways,Heathrow,London,UK,11:56 AM,Charles de Gaulle,Paris,19.91
+AM7878,Aeroméxico,Benito Juárez International,Mexico City,Mexico,4:38 PM,O'Hare International,Chicago,22.6
+BA3826,British Airways,Heathrow,London,UK,8:09 PM,Charles de Gaulle,Paris,16.7
+KL4801,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,8:22 PM,Charles de Gaulle,Paris,6.26
+SA2908,South African Airways,O.R. Tambo International,Johannesburg,South Africa,12:51 PM,Charles de Gaulle,Paris,7.46
+NZ6282,Air New Zealand,Auckland Airport,Auckland,New Zealand,9:27 AM,Sydney Airport,Sydney,5.6
+AV9075,Avianca,El Dorado International,Bogotá,Colombia,11:01 AM,O'Hare International,Chicago,11.79
+LH4956,Lufthansa,Frankfurt Airport,Frankfurt,Germany,3:36 AM,Stockholm Arlanda,Stockholm,16.2
+AI5848,Air India,Indira Gandhi International,Delhi,India,4:49 PM,Chhatrapati Shivaji International,Mumbai,6.48
+LH6097,Lufthansa,Frankfurt Airport,Frankfurt,Germany,5:52 AM,Leonardo da Vinci International,Rome,15.06
+KE4081,Korean Air,Incheon International,Seoul,South Korea,1:28 PM,Haneda,Tokyo,4.87
+LA1545,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,11:51 AM,Ministro Pistarini International,Buenos Aires,16.66
+EK5000,Emirates,Dubai International,Dubai,UAE,2:51 AM,Hamad International,Doha,21.78
+LA3981,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,7:40 AM,Ministro Pistarini International,Buenos Aires,14.92
+UA4237,United Airlines,Los Angeles International,Los Angeles,USA,12:06 AM,San Francisco International,San Francisco,20.57
+KE9869,Korean Air,Incheon International,Seoul,South Korea,2:02 PM,Sydney Airport,Sydney,5.42
+AC5311,Air Canada,Toronto Pearson,Toronto,Canada,1:01 AM,John F. Kennedy International,New York,21.27
+AV3075,Avianca,El Dorado International,Bogotá,Colombia,9:12 PM,Haneda,Tokyo,18.28
+AF9732,Air France,Charles de Gaulle,Paris,France,8:41 AM,Hamad International,Doha,13.82
+NH4854,All Nippon Airways,Haneda,Tokyo,Japan,8:21 PM,Incheon International,Seoul,1.22
+AM4613,Aeroméxico,Benito Juárez International,Mexico City,Mexico,3:59 AM,O'Hare International,Chicago,21.14
+WN5349,Southwest Airlines,Los Angeles International,Los Angeles,USA,11:51 AM,San Francisco International,San Francisco,1.63
+LH1464,Lufthansa,Frankfurt Airport,Frankfurt,Germany,3:03 PM,Charles de Gaulle,Paris,3.61
+QR5811,Qatar Airways,Hamad International,Doha,Qatar,3:54 PM,Bole International,Addis Ababa,14.57
+QR3629,Qatar Airways,Hamad International,Doha,Qatar,3:06 AM,Bole International,Addis Ababa,18.89
+CX7552,Cathay Pacific,Hong Kong International,Hong Kong,China,11:48 PM,Changi,Singapore,23.9
+DL7381,Delta Air Lines,John F. Kennedy International,New York,USA,11:35 AM,Hartsfield-Jackson Atlanta,Atlanta,2.86
+WN9954,Southwest Airlines,Los Angeles International,Los Angeles,USA,7:56 PM,O'Hare International,Chicago,3.48
+CX1836,Cathay Pacific,Hong Kong International,Hong Kong,China,3:28 PM,Changi,Singapore,18.36
+NZ9099,Air New Zealand,Auckland Airport,Auckland,New Zealand,9:03 PM,Jomo Kenyatta International,Nairobi,19.79
+SK7231,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,1:38 AM,Charles de Gaulle,Paris,22.56
+KE6519,Korean Air,Incheon International,Seoul,South Korea,1:21 AM,Charles de Gaulle,Paris,11.58
+BA1466,British Airways,Heathrow,London,UK,2:49 AM,Charles de Gaulle,Paris,4.14
+AA4284,American Airlines,John F. Kennedy International,New York,USA,12:14 PM,Hartsfield-Jackson Atlanta,Atlanta,17.76
+LH6903,Lufthansa,Frankfurt Airport,Frankfurt,Germany,10:02 PM,Charles de Gaulle,Paris,11.89
+SQ3366,Singapore Airlines,Changi,Singapore,Singapore,1:59 AM,Hong Kong International,Hong Kong,23.6
+QR7020,Qatar Airways,Hamad International,Doha,Qatar,12:16 PM,São Paulo/Guarulhos International,São Paulo,6.75
+CX6909,Cathay Pacific,Hong Kong International,Hong Kong,China,3:51 PM,Changi,Singapore,4.23
+AV3809,Avianca,El Dorado International,Bogotá,Colombia,4:25 PM,Frankfurt Airport,Frankfurt,10.12
+WN7860,Southwest Airlines,Los Angeles International,Los Angeles,USA,6:27 AM,San Francisco International,San Francisco,16.33
+IB6339,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,5:45 AM,Auckland Airport,Auckland,16.91
+ET7315,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,4:22 PM,Hamad International,Doha,20.84
+AZ7290,Alitalia,Leonardo da Vinci International,Rome,Italy,11:11 AM,Charles de Gaulle,Paris,18.47
+LA2284,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,11:23 PM,Ministro Pistarini International,Buenos Aires,21.73
+ET8753,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,1:31 AM,Hamad International,Doha,21.84
+KE3458,Korean Air,Incheon International,Seoul,South Korea,7:16 AM,Haneda,Tokyo,8.57
+DL1765,Delta Air Lines,John F. Kennedy International,New York,USA,5:25 AM,Hartsfield-Jackson Atlanta,Atlanta,4.28
+UA1392,United Airlines,Los Angeles International,Los Angeles,USA,6:47 PM,San Francisco International,San Francisco,9.57
+AF1424,Air France,Charles de Gaulle,Paris,France,3:16 PM,Copenhagen Airport,Copenhagen,9.56
+NH8283,All Nippon Airways,Haneda,Tokyo,Japan,2:34 AM,Incheon International,Seoul,14.78
+EK5296,Emirates,Dubai International,Dubai,UAE,1:21 AM,Hamad International,Doha,11.84
+QR4004,Qatar Airways,Hamad International,Doha,Qatar,6:20 AM,Bole International,Addis Ababa,3.48
+LA6180,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,4:04 PM,Kuala Lumpur International,Kuala Lumpur,3.16
+SQ9022,Singapore Airlines,Changi,Singapore,Singapore,11:22 PM,Beijing Capital International,Beijing,18.48
+QF2703,Qantas,Sydney Airport,Sydney,Australia,10:48 PM,Melbourne Airport,Melbourne,4.03
+AM7520,Aeroméxico,Benito Juárez International,Mexico City,Mexico,4:39 PM,O'Hare International,Chicago,11.04
+LA5365,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,8:21 PM,Ministro Pistarini International,Buenos Aires,23.65
+QR6999,Qatar Airways,Hamad International,Doha,Qatar,1:44 AM,Bole International,Addis Ababa,5.05
+BA6528,British Airways,Heathrow,London,UK,11:58 PM,Vienna International,Vienna,3.43
+KL4500,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,2:40 PM,Charles de Gaulle,Paris,20.49
+LA3325,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,8:56 AM,Ministro Pistarini International,Buenos Aires,11.59
+QR6450,Qatar Airways,Hamad International,Doha,Qatar,11:05 AM,Bole International,Addis Ababa,8.2
+QF2974,Qantas,Sydney Airport,Sydney,Australia,5:46 PM,Melbourne Airport,Melbourne,16.11
+SK4476,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,10:17 PM,Charles de Gaulle,Paris,11.58
+KE7093,Korean Air,Incheon International,Seoul,South Korea,7:42 AM,Haneda,Tokyo,3.86
+AF6719,Air France,Charles de Gaulle,Paris,France,8:59 PM,Frankfurt Airport,Frankfurt,12.51
+NH2293,All Nippon Airways,Haneda,Tokyo,Japan,8:47 PM,Incheon International,Seoul,10.15
+KE2894,Korean Air,Incheon International,Seoul,South Korea,5:28 AM,Miami International,Miami,15.39
+AV4108,Avianca,El Dorado International,Bogotá,Colombia,12:25 PM,John F. Kennedy International,New York,3.16
+WN6482,Southwest Airlines,Los Angeles International,Los Angeles,USA,10:47 AM,Denver International,Denver,13.65
+NH6666,All Nippon Airways,Haneda,Tokyo,Japan,12:06 PM,Incheon International,Seoul,17.98
+SQ8332,Singapore Airlines,Changi,Singapore,Singapore,5:20 PM,Beijing Capital International,Beijing,5.83
+IB9186,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,11:24 AM,Cape Town International,Cape Town,15.36
+KL1655,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,10:25 AM,Charles de Gaulle,Paris,13.1
+NH3518,All Nippon Airways,Haneda,Tokyo,Japan,8:51 AM,Indira Gandhi International,Delhi,12.17
+AA7542,American Airlines,John F. Kennedy International,New York,USA,8:01 PM,Toronto Pearson,Toronto,18.72
+QR9946,Qatar Airways,Hamad International,Doha,Qatar,5:30 AM,Bole International,Addis Ababa,7.14
+AV3043,Avianca,El Dorado International,Bogotá,Colombia,10:07 PM,O'Hare International,Chicago,15.98
+AM2848,Aeroméxico,Benito Juárez International,Mexico City,Mexico,8:23 PM,O'Hare International,Chicago,4.2
+LH8573,Lufthansa,Frankfurt Airport,Frankfurt,Germany,6:39 AM,Charles de Gaulle,Paris,5.38
+DL9341,Delta Air Lines,John F. Kennedy International,New York,USA,11:39 AM,Hartsfield-Jackson Atlanta,Atlanta,3.36
+QR6105,Qatar Airways,Hamad International,Doha,Qatar,1:33 PM,Bole International,Addis Ababa,19.32
+NH8525,All Nippon Airways,Haneda,Tokyo,Japan,11:24 AM,Melbourne Airport,Melbourne,16.56
+WN9468,Southwest Airlines,Los Angeles International,Los Angeles,USA,9:39 PM,San Francisco International,San Francisco,14.96
+UA8201,United Airlines,Los Angeles International,Los Angeles,USA,1:29 PM,San Francisco International,San Francisco,7.85
+SK7231,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,11:42 PM,Charles de Gaulle,Paris,15.64
+NZ7385,Air New Zealand,Auckland Airport,Auckland,New Zealand,1:50 AM,Sydney Airport,Sydney,13.87
+AF6875,Air France,Charles de Gaulle,Paris,France,10:32 AM,Melbourne Airport,Melbourne,2.38
+QF1731,Qantas,Sydney Airport,Sydney,Australia,11:05 PM,Melbourne Airport,Melbourne,19.82
+AF1560,Air France,Charles de Gaulle,Paris,France,12:24 AM,Frankfurt Airport,Frankfurt,11.9
+AI1169,Air India,Indira Gandhi International,Delhi,India,2:02 PM,Changi,Singapore,7.9
+SQ6869,Singapore Airlines,Changi,Singapore,Singapore,4:56 PM,Auckland Airport,Auckland,14.43
+TG3327,Thai Airways,Suvarnabhumi,Bangkok,Thailand,2:58 PM,Changi,Singapore,16.36
+IB4654,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,4:19 AM,Charles de Gaulle,Paris,18.22
+IB1185,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,4:35 AM,Charles de Gaulle,Paris,6.49
+LH6321,Lufthansa,Frankfurt Airport,Frankfurt,Germany,6:38 AM,Vienna International,Vienna,4.58
+IB8675,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,3:31 PM,Charles de Gaulle,Paris,16.78
+SK7971,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,6:45 PM,Hartsfield-Jackson Atlanta,Atlanta,17.92
+AC5659,Air Canada,Toronto Pearson,Toronto,Canada,7:29 PM,John F. Kennedy International,New York,10.46
+QF2881,Qantas,Sydney Airport,Sydney,Australia,2:38 AM,Melbourne Airport,Melbourne,17.25
+EK7739,Emirates,Dubai International,Dubai,UAE,7:22 AM,Hamad International,Doha,7.46
+AI9127,Air India,Indira Gandhi International,Delhi,India,7:39 PM,Chhatrapati Shivaji International,Mumbai,9.71
+IB8974,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,3:09 PM,Charles de Gaulle,Paris,14.38
+LH5700,Lufthansa,Frankfurt Airport,Frankfurt,Germany,9:37 PM,Charles de Gaulle,Paris,11.05
+LA4827,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,12:55 PM,Frankfurt Airport,Frankfurt,16.91
+LA8602,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,11:41 PM,Sydney Airport,Sydney,12.93
+SQ5275,Singapore Airlines,Changi,Singapore,Singapore,12:28 AM,Melbourne Airport,Melbourne,9.96
+SA9239,South African Airways,O.R. Tambo International,Johannesburg,South Africa,12:02 AM,Charles de Gaulle,Paris,4.13
+EK7825,Emirates,Dubai International,Dubai,UAE,8:43 AM,Hamad International,Doha,22.91
+SQ8332,Singapore Airlines,Changi,Singapore,Singapore,12:43 PM,Beijing Capital International,Beijing,18.79
+DL4833,Delta Air Lines,John F. Kennedy International,New York,USA,3:21 AM,Hartsfield-Jackson Atlanta,Atlanta,5.7
+QR9598,Qatar Airways,Hamad International,Doha,Qatar,5:33 AM,Charles de Gaulle,Paris,17.53
+UA3264,United Airlines,Los Angeles International,Los Angeles,USA,8:28 PM,Seattle-Tacoma International,Seattle,20.08
+UA2406,United Airlines,Los Angeles International,Los Angeles,USA,6:36 PM,San Francisco International,San Francisco,5.83
+AZ4838,Alitalia,Leonardo da Vinci International,Rome,Italy,1:09 AM,Charles de Gaulle,Paris,16.8
+UA7050,United Airlines,Los Angeles International,Los Angeles,USA,8:27 PM,San Francisco International,San Francisco,20.04
+KE7499,Korean Air,Incheon International,Seoul,South Korea,8:46 PM,Haneda,Tokyo,18.22
+LH8791,Lufthansa,Frankfurt Airport,Frankfurt,Germany,11:36 AM,Charles de Gaulle,Paris,17.06
+SQ2302,Singapore Airlines,Changi,Singapore,Singapore,8:10 PM,Hong Kong International,Hong Kong,5.07
+NH5199,All Nippon Airways,Haneda,Tokyo,Japan,10:32 AM,Incheon International,Seoul,9.24
+AF3264,Air France,Charles de Gaulle,Paris,France,9:21 AM,Frankfurt Airport,Frankfurt,13.83
+IB1185,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,2:08 PM,Charles de Gaulle,Paris,19.67
+SQ5036,Singapore Airlines,Changi,Singapore,Singapore,7:33 AM,Beijing Capital International,Beijing,22.03
+EK7596,Emirates,Dubai International,Dubai,UAE,9:50 PM,Hamad International,Doha,9.49
+AM3096,Aeroméxico,Benito Juárez International,Mexico City,Mexico,8:08 PM,O'Hare International,Chicago,22.65
+QR1033,Qatar Airways,Hamad International,Doha,Qatar,6:12 AM,Bole International,Addis Ababa,4.03
+WN8406,Southwest Airlines,Los Angeles International,Los Angeles,USA,1:11 AM,San Francisco International,San Francisco,1.35
+QF5643,Qantas,Sydney Airport,Sydney,Australia,6:46 AM,Melbourne Airport,Melbourne,3.13
+BA4260,British Airways,Heathrow,London,UK,10:04 PM,Charles de Gaulle,Paris,22.94
+IB7760,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,10:55 PM,Charles de Gaulle,Paris,1.19
+ET3908,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,7:22 AM,Hamad International,Doha,15.98
+KL4223,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,4:37 PM,Leonardo da Vinci International,Rome,7.94
+QF6150,Qantas,Sydney Airport,Sydney,Australia,8:24 AM,Melbourne Airport,Melbourne,3.11
+AZ2773,Alitalia,Leonardo da Vinci International,Rome,Italy,7:39 PM,Charles de Gaulle,Paris,19.5
+KE7505,Korean Air,Incheon International,Seoul,South Korea,8:41 PM,Haneda,Tokyo,5.69
+QF3138,Qantas,Sydney Airport,Sydney,Australia,7:15 PM,Kuala Lumpur International,Kuala Lumpur,3.82
+TG4731,Thai Airways,Suvarnabhumi,Bangkok,Thailand,12:06 PM,Hong Kong International,Hong Kong,15.65
+TG9476,Thai Airways,Suvarnabhumi,Bangkok,Thailand,12:18 AM,Changi,Singapore,20.96
+LH6904,Lufthansa,Frankfurt Airport,Frankfurt,Germany,6:03 PM,Charles de Gaulle,Paris,8.08
+UA7363,United Airlines,Los Angeles International,Los Angeles,USA,4:34 AM,San Francisco International,San Francisco,16.14
+IB8384,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,5:14 AM,Charles de Gaulle,Paris,21.98
+KE9821,Korean Air,Incheon International,Seoul,South Korea,8:03 PM,Haneda,Tokyo,7.75
+ET6738,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,3:52 PM,Hamad International,Doha,15.17
+AZ5006,Alitalia,Leonardo da Vinci International,Rome,Italy,2:02 PM,Charles de Gaulle,Paris,12.08
+AM8076,Aeroméxico,Benito Juárez International,Mexico City,Mexico,6:14 AM,Denver International,Denver,2.38
+KL3207,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,10:42 PM,Vienna International,Vienna,3.85
+SQ3572,Singapore Airlines,Changi,Singapore,Singapore,4:47 AM,Beijing Capital International,Beijing,9.07
+BA5126,British Airways,Heathrow,London,UK,10:27 PM,Charles de Gaulle,Paris,14.39
+QF8775,Qantas,Sydney Airport,Sydney,Australia,10:09 AM,Haneda,Tokyo,10.97
+SQ1577,Singapore Airlines,Changi,Singapore,Singapore,10:07 PM,Melbourne Airport,Melbourne,17.64
+AV5545,Avianca,El Dorado International,Bogotá,Colombia,4:03 PM,O'Hare International,Chicago,10.27
+SQ8385,Singapore Airlines,Changi,Singapore,Singapore,5:16 PM,Suvarnabhumi,Bangkok,5.36
+ET6234,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,9:10 AM,Hamad International,Doha,16.33
+IB3864,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,4:42 AM,Charles de Gaulle,Paris,15.87
+AI5828,Air India,Indira Gandhi International,Delhi,India,2:49 PM,Chhatrapati Shivaji International,Mumbai,6.49
+NH1897,All Nippon Airways,Haneda,Tokyo,Japan,5:17 PM,Incheon International,Seoul,16.59
+TG7112,Thai Airways,Suvarnabhumi,Bangkok,Thailand,7:26 PM,Dubai International,Dubai,4.85
+KL7828,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,4:48 PM,Stockholm Arlanda,Stockholm,10.61
+SA3782,South African Airways,O.R. Tambo International,Johannesburg,South Africa,3:08 AM,Haneda,Tokyo,16.36
+WN1051,Southwest Airlines,Los Angeles International,Los Angeles,USA,4:30 PM,San Francisco International,San Francisco,14.55
+EK8571,Emirates,Dubai International,Dubai,UAE,3:00 AM,Amsterdam Airport Schiphol,Amsterdam,21.06
+LA6417,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,7:34 PM,Ministro Pistarini International,Buenos Aires,22.06
+QR6341,Qatar Airways,Hamad International,Doha,Qatar,12:34 AM,Bole International,Addis Ababa,3.06
+BA7761,British Airways,Heathrow,London,UK,3:13 PM,Amsterdam Airport Schiphol,Amsterdam,18.21
+NZ4525,Air New Zealand,Auckland Airport,Auckland,New Zealand,12:26 AM,Kuala Lumpur International,Kuala Lumpur,19.47
+AA6594,American Airlines,John F. Kennedy International,New York,USA,1:32 PM,Hartsfield-Jackson Atlanta,Atlanta,19.59
+TG5588,Thai Airways,Suvarnabhumi,Bangkok,Thailand,1:51 PM,Changi,Singapore,1.64
+EK4517,Emirates,Dubai International,Dubai,UAE,2:30 PM,Hamad International,Doha,16.99
+IB9630,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,8:07 PM,Charles de Gaulle,Paris,1.84
+AC7018,Air Canada,Toronto Pearson,Toronto,Canada,4:39 PM,John F. Kennedy International,New York,22.39
+KL6466,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,3:06 AM,Charles de Gaulle,Paris,21.24
+NZ6947,Air New Zealand,Auckland Airport,Auckland,New Zealand,8:46 AM,Sydney Airport,Sydney,19.98
+ET1547,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,12:27 AM,Hamad International,Doha,14.88
+QF8880,Qantas,Sydney Airport,Sydney,Australia,7:08 PM,Melbourne Airport,Melbourne,23.41
+SK9544,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,8:34 AM,Charles de Gaulle,Paris,18.22
+SA4500,South African Airways,O.R. Tambo International,Johannesburg,South Africa,2:26 PM,Stockholm Arlanda,Stockholm,5.7
+WN7040,Southwest Airlines,Los Angeles International,Los Angeles,USA,10:52 PM,Arturo Merino Benítez International,Santiago,15.63
+IB1482,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,11:06 PM,Charles de Gaulle,Paris,5.25
+WN3689,Southwest Airlines,Los Angeles International,Los Angeles,USA,8:12 AM,O'Hare International,Chicago,7.31
+SA7667,South African Airways,O.R. Tambo International,Johannesburg,South Africa,12:10 AM,Indira Gandhi International,Delhi,15.21
+AM8764,Aeroméxico,Benito Juárez International,Mexico City,Mexico,1:48 AM,O'Hare International,Chicago,5.07
+DL4972,Delta Air Lines,John F. Kennedy International,New York,USA,6:34 AM,Hartsfield-Jackson Atlanta,Atlanta,10.25
+LA5271,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,11:10 AM,Ministro Pistarini International,Buenos Aires,2.19
+UA3806,United Airlines,Los Angeles International,Los Angeles,USA,12:37 PM,Seattle-Tacoma International,Seattle,16.45
+NH9539,All Nippon Airways,Haneda,Tokyo,Japan,5:50 AM,Incheon International,Seoul,12.58
+LH2007,Lufthansa,Frankfurt Airport,Frankfurt,Germany,8:34 AM,Charles de Gaulle,Paris,18.56
+DL1182,Delta Air Lines,John F. Kennedy International,New York,USA,7:35 AM,Hartsfield-Jackson Atlanta,Atlanta,6.92
+AZ6753,Alitalia,Leonardo da Vinci International,Rome,Italy,1:53 PM,Arturo Merino Benítez International,Santiago,8.17
+IB4351,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,7:23 PM,Cairo International,Cairo,8.14
+KL9931,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,2:17 AM,Charles de Gaulle,Paris,7.3
+LH6780,Lufthansa,Frankfurt Airport,Frankfurt,Germany,9:20 PM,Charles de Gaulle,Paris,18.45
+LH9806,Lufthansa,Frankfurt Airport,Frankfurt,Germany,6:43 AM,Charles de Gaulle,Paris,11.54
+WN3052,Southwest Airlines,Los Angeles International,Los Angeles,USA,7:25 AM,San Francisco International,San Francisco,6.4
+CX2721,Cathay Pacific,Hong Kong International,Hong Kong,China,1:29 PM,Changi,Singapore,23.99
+AF7295,Air France,Charles de Gaulle,Paris,France,7:21 PM,Suvarnabhumi,Bangkok,12.45
+KL3341,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,1:03 PM,Adolfo Suárez Madrid–Barajas,Madrid,10.6
+ET6241,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,5:10 AM,Hamad International,Doha,3.15
+BA7961,British Airways,Heathrow,London,UK,6:46 AM,Charles de Gaulle,Paris,22.85
+TG2367,Thai Airways,Suvarnabhumi,Bangkok,Thailand,10:41 AM,Changi,Singapore,13.05
+LH2743,Lufthansa,Frankfurt Airport,Frankfurt,Germany,10:18 AM,Charles de Gaulle,Paris,9.56
+AA5549,American Airlines,John F. Kennedy International,New York,USA,5:00 AM,Hartsfield-Jackson Atlanta,Atlanta,8.37
+QF2364,Qantas,Sydney Airport,Sydney,Australia,10:22 AM,Melbourne Airport,Melbourne,15.88
+AC9211,Air Canada,Toronto Pearson,Toronto,Canada,1:33 AM,Miami International,Miami,22.73
+AF7678,Air France,Charles de Gaulle,Paris,France,3:03 AM,Adolfo Suárez Madrid–Barajas,Madrid,13.06
+SK3439,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,6:41 AM,Adolfo Suárez Madrid–Barajas,Madrid,23.53
+SK7335,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,12:06 AM,Charles de Gaulle,Paris,6.8
+CX4113,Cathay Pacific,Hong Kong International,Hong Kong,China,6:24 PM,Changi,Singapore,22.88
+AM6524,Aeroméxico,Benito Juárez International,Mexico City,Mexico,6:20 AM,O'Hare International,Chicago,20.17
+UA3441,United Airlines,Los Angeles International,Los Angeles,USA,8:18 PM,San Francisco International,San Francisco,9.75
+QR2087,Qatar Airways,Hamad International,Doha,Qatar,8:29 AM,San Francisco International,San Francisco,18.48
+LA9647,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,10:52 PM,Cape Town International,Cape Town,8.75
+AC1668,Air Canada,Toronto Pearson,Toronto,Canada,1:51 PM,John F. Kennedy International,New York,12.64
+ET9515,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,3:13 AM,Hamad International,Doha,17.96
+AA7149,American Airlines,John F. Kennedy International,New York,USA,10:52 PM,Hartsfield-Jackson Atlanta,Atlanta,17.3
+KE3828,Korean Air,Incheon International,Seoul,South Korea,8:31 AM,Haneda,Tokyo,8.24
+NZ7946,Air New Zealand,Auckland Airport,Auckland,New Zealand,4:36 PM,Sydney Airport,Sydney,5.44
+DL5304,Delta Air Lines,John F. Kennedy International,New York,USA,8:47 AM,Indira Gandhi International,Delhi,16.29
+QR1033,Qatar Airways,Hamad International,Doha,Qatar,1:47 PM,Bole International,Addis Ababa,7.11
+AM4015,Aeroméxico,Benito Juárez International,Mexico City,Mexico,6:10 AM,O'Hare International,Chicago,9.84
+ET6504,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,2:18 PM,Hamad International,Doha,9.2
+AC2311,Air Canada,Toronto Pearson,Toronto,Canada,1:26 AM,John F. Kennedy International,New York,14.37
+AA6559,American Airlines,John F. Kennedy International,New York,USA,1:57 AM,Hartsfield-Jackson Atlanta,Atlanta,23.13
+NH9612,All Nippon Airways,Haneda,Tokyo,Japan,4:42 PM,Incheon International,Seoul,5.92
+EK7294,Emirates,Dubai International,Dubai,UAE,8:01 PM,Hamad International,Doha,1.82
+AF6795,Air France,Charles de Gaulle,Paris,France,5:57 PM,Frankfurt Airport,Frankfurt,9.83
+AF6240,Air France,Charles de Gaulle,Paris,France,10:26 AM,Frankfurt Airport,Frankfurt,22.31
+CX3579,Cathay Pacific,Hong Kong International,Hong Kong,China,1:16 PM,Changi,Singapore,10.56
+UA3041,United Airlines,Los Angeles International,Los Angeles,USA,2:12 PM,San Francisco International,San Francisco,18.05
+AF1326,Air France,Charles de Gaulle,Paris,France,11:03 AM,Arturo Merino Benítez International,Santiago,13.08
+WN9087,Southwest Airlines,Los Angeles International,Los Angeles,USA,10:48 AM,San Francisco International,San Francisco,15.06
+WN3418,Southwest Airlines,Los Angeles International,Los Angeles,USA,3:37 AM,Benito Juárez International,Mexico City,10.31
+SK2434,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,3:43 PM,Charles de Gaulle,Paris,14.09
+KE3610,Korean Air,Incheon International,Seoul,South Korea,4:52 AM,Jomo Kenyatta International,Nairobi,14.38
+WN6588,Southwest Airlines,Los Angeles International,Los Angeles,USA,2:28 PM,San Francisco International,San Francisco,4.09
+SK9022,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,2:04 PM,Charles de Gaulle,Paris,19.72
+UA4854,United Airlines,Los Angeles International,Los Angeles,USA,12:00 PM,San Francisco International,San Francisco,20.91
+NH2995,All Nippon Airways,Haneda,Tokyo,Japan,10:00 AM,Changi,Singapore,8.06
+KL6213,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,3:24 AM,Frankfurt Airport,Frankfurt,9.86
+BA3159,British Airways,Heathrow,London,UK,7:59 AM,Charles de Gaulle,Paris,11.81
+NZ5671,Air New Zealand,Auckland Airport,Auckland,New Zealand,6:38 PM,Brisbane Airport,Brisbane,19.14
+NZ6707,Air New Zealand,Auckland Airport,Auckland,New Zealand,5:22 PM,Sydney Airport,Sydney,18.4
+SQ5181,Singapore Airlines,Changi,Singapore,Singapore,7:09 AM,Hong Kong International,Hong Kong,4.8
+QR5279,Qatar Airways,Hamad International,Doha,Qatar,6:32 PM,Bole International,Addis Ababa,21.98
+KE7452,Korean Air,Incheon International,Seoul,South Korea,9:47 AM,Benito Juárez International,Mexico City,13.74
+KL8781,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,4:24 AM,Charles de Gaulle,Paris,5.76
+DL3314,Delta Air Lines,John F. Kennedy International,New York,USA,8:08 PM,Hartsfield-Jackson Atlanta,Atlanta,23.76
+EK5144,Emirates,Dubai International,Dubai,UAE,10:08 PM,Brisbane Airport,Brisbane,2.31
+KL4926,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,7:07 PM,Charles de Gaulle,Paris,18.26
+AI8540,Air India,Indira Gandhi International,Delhi,India,12:25 PM,Chhatrapati Shivaji International,Mumbai,8.27
+BA8910,British Airways,Heathrow,London,UK,2:55 AM,John F. Kennedy International,New York,8.06
+NZ2181,Air New Zealand,Auckland Airport,Auckland,New Zealand,1:02 PM,Sydney Airport,Sydney,15.86
+NH7999,All Nippon Airways,Haneda,Tokyo,Japan,5:15 AM,Incheon International,Seoul,16.32
+KE1824,Korean Air,Incheon International,Seoul,South Korea,3:19 AM,Beijing Capital International,Beijing,16.99
+NH7063,All Nippon Airways,Haneda,Tokyo,Japan,1:30 AM,Incheon International,Seoul,23.42
+NZ6242,Air New Zealand,Auckland Airport,Auckland,New Zealand,2:11 AM,Sydney Airport,Sydney,15.25
+NZ1569,Air New Zealand,Auckland Airport,Auckland,New Zealand,10:08 AM,Sydney Airport,Sydney,10.52
+SA1018,South African Airways,O.R. Tambo International,Johannesburg,South Africa,7:02 AM,Charles de Gaulle,Paris,3.57
+KL5867,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,11:26 AM,Frankfurt Airport,Frankfurt,23.03
+WN2998,Southwest Airlines,Los Angeles International,Los Angeles,USA,1:33 PM,San Francisco International,San Francisco,10.94
+AC5834,Air Canada,Toronto Pearson,Toronto,Canada,3:36 PM,John F. Kennedy International,New York,22.12
+QR4989,Qatar Airways,Hamad International,Doha,Qatar,12:31 PM,Bole International,Addis Ababa,18.43
+AI6971,Air India,Indira Gandhi International,Delhi,India,9:25 AM,Amsterdam Airport Schiphol,Amsterdam,4.91
+TG3859,Thai Airways,Suvarnabhumi,Bangkok,Thailand,2:05 AM,Changi,Singapore,19.45
+KL8406,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,3:52 PM,Charles de Gaulle,Paris,3.12
+LA9192,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,6:36 AM,Logan International,Boston,7.4
+EK1492,Emirates,Dubai International,Dubai,UAE,3:59 AM,Hamad International,Doha,13.56
+SQ1094,Singapore Airlines,Changi,Singapore,Singapore,4:54 AM,Haneda,Tokyo,21.77
+QF5613,Qantas,Sydney Airport,Sydney,Australia,2:03 PM,Melbourne Airport,Melbourne,20.04
+AV8222,Avianca,El Dorado International,Bogotá,Colombia,7:51 AM,O'Hare International,Chicago,3.97
+AZ2894,Alitalia,Leonardo da Vinci International,Rome,Italy,12:27 AM,Copenhagen Airport,Copenhagen,12.88
+AF7087,Air France,Charles de Gaulle,Paris,France,10:11 AM,Frankfurt Airport,Frankfurt,10.95
+SK2916,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,11:44 AM,Charles de Gaulle,Paris,5.58
+AF5408,Air France,Charles de Gaulle,Paris,France,9:24 PM,Frankfurt Airport,Frankfurt,19.52
+SA5902,South African Airways,O.R. Tambo International,Johannesburg,South Africa,2:06 AM,Charles de Gaulle,Paris,4.97
+SQ7113,Singapore Airlines,Changi,Singapore,Singapore,8:27 PM,O'Hare International,Chicago,5.07
+AI2273,Air India,Indira Gandhi International,Delhi,India,12:12 PM,Chhatrapati Shivaji International,Mumbai,2.04
+NZ4282,Air New Zealand,Auckland Airport,Auckland,New Zealand,10:32 AM,Beijing Capital International,Beijing,13.38
+AV4168,Avianca,El Dorado International,Bogotá,Colombia,9:52 AM,O'Hare International,Chicago,23.96
+NZ9250,Air New Zealand,Auckland Airport,Auckland,New Zealand,9:07 PM,Sydney Airport,Sydney,4.14
+NZ4755,Air New Zealand,Auckland Airport,Auckland,New Zealand,9:33 AM,Sydney Airport,Sydney,23.03
+LA9341,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,3:46 AM,Ministro Pistarini International,Buenos Aires,20.79
+SK9251,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,1:12 PM,Charles de Gaulle,Paris,16.72
+ET6585,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,8:43 PM,Hamad International,Doha,20.68
+AI1516,Air India,Indira Gandhi International,Delhi,India,12:48 AM,Kuala Lumpur International,Kuala Lumpur,4.03
+ET7092,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,9:39 AM,Hamad International,Doha,10.06
+AC5659,Air Canada,Toronto Pearson,Toronto,Canada,10:15 AM,John F. Kennedy International,New York,10.43
+AV7927,Avianca,El Dorado International,Bogotá,Colombia,3:45 PM,O'Hare International,Chicago,16.4
+SK6204,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,2:42 PM,Vienna International,Vienna,8.09
+CX1574,Cathay Pacific,Hong Kong International,Hong Kong,China,12:53 AM,Changi,Singapore,17.67
+QF4778,Qantas,Sydney Airport,Sydney,Australia,9:27 AM,Melbourne Airport,Melbourne,22.96
+AC6923,Air Canada,Toronto Pearson,Toronto,Canada,4:08 PM,John F. Kennedy International,New York,21.67
+AM3012,Aeroméxico,Benito Juárez International,Mexico City,Mexico,2:43 PM,O'Hare International,Chicago,15.64
+AF4188,Air France,Charles de Gaulle,Paris,France,6:49 PM,Vienna International,Vienna,18.18
+QR8304,Qatar Airways,Hamad International,Doha,Qatar,8:30 PM,Bole International,Addis Ababa,12.98
+SA8121,South African Airways,O.R. Tambo International,Johannesburg,South Africa,8:55 PM,Charles de Gaulle,Paris,22.8
+AV3056,Avianca,El Dorado International,Bogotá,Colombia,7:50 PM,O'Hare International,Chicago,3.38
+CX9649,Cathay Pacific,Hong Kong International,Hong Kong,China,1:58 AM,Changi,Singapore,16.5
+LA2895,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,4:52 PM,Ministro Pistarini International,Buenos Aires,13.21
+TG3007,Thai Airways,Suvarnabhumi,Bangkok,Thailand,1:38 PM,Changi,Singapore,13.57
+EK7341,Emirates,Dubai International,Dubai,UAE,8:51 PM,Hamad International,Doha,9.14
+BA1547,British Airways,Heathrow,London,UK,9:43 AM,Charles de Gaulle,Paris,19.56
+ET4246,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,9:38 PM,Benito Juárez International,Mexico City,12.48
+TG1711,Thai Airways,Suvarnabhumi,Bangkok,Thailand,2:25 PM,Incheon International,Seoul,13.67
+QR9299,Qatar Airways,Hamad International,Doha,Qatar,1:04 PM,Bole International,Addis Ababa,23.22
+NH7569,All Nippon Airways,Haneda,Tokyo,Japan,3:10 AM,Incheon International,Seoul,23.24
+AZ1863,Alitalia,Leonardo da Vinci International,Rome,Italy,2:37 AM,Frankfurt Airport,Frankfurt,2.43
+KE8445,Korean Air,Incheon International,Seoul,South Korea,1:54 AM,Miami International,Miami,9.69
+NH8259,All Nippon Airways,Haneda,Tokyo,Japan,6:51 PM,Incheon International,Seoul,7.52
+WN7161,Southwest Airlines,Los Angeles International,Los Angeles,USA,5:01 AM,San Francisco International,San Francisco,23.52
+QF5533,Qantas,Sydney Airport,Sydney,Australia,2:51 AM,Melbourne Airport,Melbourne,7.44
+IB7358,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,6:07 AM,Amsterdam Airport Schiphol,Amsterdam,4.51
+SQ3887,Singapore Airlines,Changi,Singapore,Singapore,8:25 PM,Beijing Capital International,Beijing,14.8
+NH4302,All Nippon Airways,Haneda,Tokyo,Japan,2:13 AM,Incheon International,Seoul,21.28
+AA4866,American Airlines,John F. Kennedy International,New York,USA,7:36 AM,Miami International,Miami,15.11
+DL8564,Delta Air Lines,John F. Kennedy International,New York,USA,8:37 AM,Hartsfield-Jackson Atlanta,Atlanta,4.61
+LH7426,Lufthansa,Frankfurt Airport,Frankfurt,Germany,7:43 AM,Charles de Gaulle,Paris,19.33
+NZ2820,Air New Zealand,Auckland Airport,Auckland,New Zealand,6:31 PM,Changi,Singapore,18.84
+NH7272,All Nippon Airways,Haneda,Tokyo,Japan,1:15 PM,Changi,Singapore,21.94
+AZ9026,Alitalia,Leonardo da Vinci International,Rome,Italy,11:26 AM,Charles de Gaulle,Paris,13.4
+KL7867,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,12:14 AM,Hamad International,Doha,20.95
+WN4815,Southwest Airlines,Los Angeles International,Los Angeles,USA,1:28 AM,San Francisco International,San Francisco,23.0
+AF9614,Air France,Charles de Gaulle,Paris,France,1:06 PM,Suvarnabhumi,Bangkok,22.89
+SQ4852,Singapore Airlines,Changi,Singapore,Singapore,2:27 PM,Frankfurt Airport,Frankfurt,5.49
+IB7456,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,12:09 PM,Charles de Gaulle,Paris,17.6
+WN7250,Southwest Airlines,Los Angeles International,Los Angeles,USA,2:36 PM,Ministro Pistarini International,Buenos Aires,23.87
+EK2641,Emirates,Dubai International,Dubai,UAE,11:22 AM,Hamad International,Doha,17.31
+BA3458,British Airways,Heathrow,London,UK,11:09 AM,Charles de Gaulle,Paris,7.85
+UA7363,United Airlines,Los Angeles International,Los Angeles,USA,9:39 AM,San Francisco International,San Francisco,9.86
+AC1080,Air Canada,Toronto Pearson,Toronto,Canada,2:18 PM,O'Hare International,Chicago,11.95
+AV1860,Avianca,El Dorado International,Bogotá,Colombia,8:17 PM,Auckland Airport,Auckland,13.56
+KL1093,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,3:34 PM,Charles de Gaulle,Paris,11.67
+AI5205,Air India,Indira Gandhi International,Delhi,India,3:14 PM,Dubai International,Dubai,19.62
+AV4539,Avianca,El Dorado International,Bogotá,Colombia,1:10 AM,Changi,Singapore,18.21
+AA7485,American Airlines,John F. Kennedy International,New York,USA,8:47 AM,Hartsfield-Jackson Atlanta,Atlanta,13.28
+SK1280,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,1:19 PM,Charles de Gaulle,Paris,2.17
+LH1697,Lufthansa,Frankfurt Airport,Frankfurt,Germany,4:28 PM,Charles de Gaulle,Paris,20.54
+AA7447,American Airlines,John F. Kennedy International,New York,USA,6:43 AM,Hartsfield-Jackson Atlanta,Atlanta,12.03
+AZ9023,Alitalia,Leonardo da Vinci International,Rome,Italy,11:24 PM,Charles de Gaulle,Paris,16.62
+NH8525,All Nippon Airways,Haneda,Tokyo,Japan,2:54 PM,Melbourne Airport,Melbourne,1.66
+CX9264,Cathay Pacific,Hong Kong International,Hong Kong,China,4:28 PM,Changi,Singapore,9.68
+QR9095,Qatar Airways,Hamad International,Doha,Qatar,12:38 AM,Charles de Gaulle,Paris,23.09
+QR4989,Qatar Airways,Hamad International,Doha,Qatar,4:44 PM,Bole International,Addis Ababa,12.92
+SA8516,South African Airways,O.R. Tambo International,Johannesburg,South Africa,8:55 AM,Charles de Gaulle,Paris,8.2
+NZ1999,Air New Zealand,Auckland Airport,Auckland,New Zealand,10:53 AM,Sydney Airport,Sydney,3.68
+AI2578,Air India,Indira Gandhi International,Delhi,India,1:02 AM,Vienna International,Vienna,18.44
+NZ4265,Air New Zealand,Auckland Airport,Auckland,New Zealand,6:28 PM,Miami International,Miami,17.71
+QR6341,Qatar Airways,Hamad International,Doha,Qatar,10:04 AM,Bole International,Addis Ababa,5.26
+QR4818,Qatar Airways,Hamad International,Doha,Qatar,12:08 PM,Bole International,Addis Ababa,12.58
+QF2553,Qantas,Sydney Airport,Sydney,Australia,6:55 PM,El Dorado International,Bogotá,17.87
+LA5423,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,11:04 PM,Ministro Pistarini International,Buenos Aires,21.94
+DL7030,Delta Air Lines,John F. Kennedy International,New York,USA,10:04 PM,Hartsfield-Jackson Atlanta,Atlanta,17.35
+LH4336,Lufthansa,Frankfurt Airport,Frankfurt,Germany,2:30 AM,Bole International,Addis Ababa,22.33
+TG1620,Thai Airways,Suvarnabhumi,Bangkok,Thailand,5:25 PM,Hong Kong International,Hong Kong,9.13
+SK8168,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,4:57 AM,Stockholm Arlanda,Stockholm,14.62
+CX2918,Cathay Pacific,Hong Kong International,Hong Kong,China,4:40 AM,Changi,Singapore,3.35
+WN8555,Southwest Airlines,Los Angeles International,Los Angeles,USA,2:13 AM,Denver International,Denver,20.69
+SK4478,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,12:36 PM,Heathrow,London,18.96
+WN4746,Southwest Airlines,Los Angeles International,Los Angeles,USA,5:07 AM,San Francisco International,San Francisco,23.86
+AF2263,Air France,Charles de Gaulle,Paris,France,3:28 PM,Adolfo Suárez Madrid–Barajas,Madrid,22.25
+DL2579,Delta Air Lines,John F. Kennedy International,New York,USA,9:27 AM,San Francisco International,San Francisco,4.41
+CX1675,Cathay Pacific,Hong Kong International,Hong Kong,China,9:20 AM,Incheon International,Seoul,19.26
+SA5940,South African Airways,O.R. Tambo International,Johannesburg,South Africa,12:15 AM,Charles de Gaulle,Paris,2.63
+NZ9504,Air New Zealand,Auckland Airport,Auckland,New Zealand,4:14 AM,Sydney Airport,Sydney,16.34
+AV2580,Avianca,El Dorado International,Bogotá,Colombia,7:23 AM,O'Hare International,Chicago,20.18
+LA2023,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,2:32 AM,Ministro Pistarini International,Buenos Aires,10.93
+BA8268,British Airways,Heathrow,London,UK,7:54 PM,Dallas/Fort Worth International,Dallas,5.05
+AM3262,Aeroméxico,Benito Juárez International,Mexico City,Mexico,12:44 PM,Dallas/Fort Worth International,Dallas,20.17
+LH9425,Lufthansa,Frankfurt Airport,Frankfurt,Germany,11:44 AM,Charles de Gaulle,Paris,12.87
+IB3454,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,10:37 PM,Leonardo da Vinci International,Rome,9.26
+AF4293,Air France,Charles de Gaulle,Paris,France,4:04 AM,Changi,Singapore,20.58
+ET2520,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,8:29 AM,Hamad International,Doha,6.17
+AF3443,Air France,Charles de Gaulle,Paris,France,10:55 PM,Frankfurt Airport,Frankfurt,21.07
+CX4972,Cathay Pacific,Hong Kong International,Hong Kong,China,3:54 AM,Melbourne Airport,Melbourne,11.44
+KL3076,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,11:25 AM,Cape Town International,Cape Town,22.19
+EK2822,Emirates,Dubai International,Dubai,UAE,9:50 AM,Hamad International,Doha,2.61
+AC7048,Air Canada,Toronto Pearson,Toronto,Canada,5:31 AM,Indira Gandhi International,Delhi,15.82
+NH7905,All Nippon Airways,Haneda,Tokyo,Japan,4:39 AM,Hong Kong International,Hong Kong,21.73
+LA7443,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,12:23 PM,Los Angeles International,Los Angeles,21.41
+AV4492,Avianca,El Dorado International,Bogotá,Colombia,11:02 AM,Hamad International,Doha,14.65
+WN7063,Southwest Airlines,Los Angeles International,Los Angeles,USA,8:26 AM,San Francisco International,San Francisco,17.83
+QR9598,Qatar Airways,Hamad International,Doha,Qatar,5:39 AM,Charles de Gaulle,Paris,6.92
+EK2864,Emirates,Dubai International,Dubai,UAE,6:47 AM,Hamad International,Doha,19.77
+AZ7651,Alitalia,Leonardo da Vinci International,Rome,Italy,5:23 AM,Charles de Gaulle,Paris,5.66
+SK7444,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,7:05 AM,Charles de Gaulle,Paris,6.3
+DL8386,Delta Air Lines,John F. Kennedy International,New York,USA,2:43 PM,Hartsfield-Jackson Atlanta,Atlanta,19.96
+BA9110,British Airways,Heathrow,London,UK,7:09 AM,Charles de Gaulle,Paris,14.63
+KL8773,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,3:21 AM,Charles de Gaulle,Paris,12.58
+AZ9769,Alitalia,Leonardo da Vinci International,Rome,Italy,6:24 AM,Charles de Gaulle,Paris,1.28
+BA9697,British Airways,Heathrow,London,UK,4:13 PM,Frankfurt Airport,Frankfurt,21.39
+AF1364,Air France,Charles de Gaulle,Paris,France,6:38 AM,Frankfurt Airport,Frankfurt,17.05
+LA1124,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,1:42 PM,Ministro Pistarini International,Buenos Aires,3.67
+SQ1881,Singapore Airlines,Changi,Singapore,Singapore,6:40 AM,Beijing Capital International,Beijing,8.88
+AZ8759,Alitalia,Leonardo da Vinci International,Rome,Italy,2:28 AM,Charles de Gaulle,Paris,22.64
+LH1504,Lufthansa,Frankfurt Airport,Frankfurt,Germany,10:36 PM,Charles de Gaulle,Paris,19.65
+AV1456,Avianca,El Dorado International,Bogotá,Colombia,1:57 PM,Dallas/Fort Worth International,Dallas,22.99
+LA4953,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,2:37 AM,Ministro Pistarini International,Buenos Aires,14.79
+AA1923,American Airlines,John F. Kennedy International,New York,USA,1:52 AM,Hartsfield-Jackson Atlanta,Atlanta,9.89
+KE9018,Korean Air,Incheon International,Seoul,South Korea,9:28 PM,Haneda,Tokyo,1.26
+AV3743,Avianca,El Dorado International,Bogotá,Colombia,12:58 PM,O'Hare International,Chicago,13.99
+SA1241,South African Airways,O.R. Tambo International,Johannesburg,South Africa,4:16 PM,Charles de Gaulle,Paris,1.53
+BA8609,British Airways,Heathrow,London,UK,6:54 AM,Frankfurt Airport,Frankfurt,21.64
+SA4414,South African Airways,O.R. Tambo International,Johannesburg,South Africa,7:01 AM,Chhatrapati Shivaji International,Mumbai,8.08
+AF9216,Air France,Charles de Gaulle,Paris,France,5:31 PM,Frankfurt Airport,Frankfurt,6.61
+KE4629,Korean Air,Incheon International,Seoul,South Korea,1:47 PM,Ministro Pistarini International,Buenos Aires,19.01
+LA1925,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,12:01 PM,Toronto Pearson,Toronto,1.58
+SK6736,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,10:05 AM,Charles de Gaulle,Paris,22.88
+LA2284,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,1:04 PM,Ministro Pistarini International,Buenos Aires,19.5
+QR9282,Qatar Airways,Hamad International,Doha,Qatar,4:02 PM,Adolfo Suárez Madrid–Barajas,Madrid,15.08
+BA3178,British Airways,Heathrow,London,UK,7:39 AM,Charles de Gaulle,Paris,11.24
+KE8227,Korean Air,Incheon International,Seoul,South Korea,5:26 PM,Haneda,Tokyo,17.0
+DL5162,Delta Air Lines,John F. Kennedy International,New York,USA,7:08 PM,Hartsfield-Jackson Atlanta,Atlanta,2.13
+QF3964,Qantas,Sydney Airport,Sydney,Australia,3:19 PM,Melbourne Airport,Melbourne,22.96
+QF4544,Qantas,Sydney Airport,Sydney,Australia,8:09 PM,Melbourne Airport,Melbourne,11.88
+KE3916,Korean Air,Incheon International,Seoul,South Korea,6:36 AM,Indira Gandhi International,Delhi,4.48
+AA7448,American Airlines,John F. Kennedy International,New York,USA,2:28 PM,Hartsfield-Jackson Atlanta,Atlanta,15.76
+UA9176,United Airlines,Los Angeles International,Los Angeles,USA,11:30 AM,Heathrow,London,14.0
+SA8416,South African Airways,O.R. Tambo International,Johannesburg,South Africa,12:51 AM,Charles de Gaulle,Paris,18.02
+ET5903,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,12:06 AM,Hong Kong International,Hong Kong,17.34
+NZ4746,Air New Zealand,Auckland Airport,Auckland,New Zealand,12:24 PM,Sydney Airport,Sydney,3.21
+AM5243,Aeroméxico,Benito Juárez International,Mexico City,Mexico,6:14 AM,O'Hare International,Chicago,5.75
+LA9613,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,8:47 PM,Ministro Pistarini International,Buenos Aires,19.31
+SA1505,South African Airways,O.R. Tambo International,Johannesburg,South Africa,11:29 AM,Charles de Gaulle,Paris,2.14
+AZ2658,Alitalia,Leonardo da Vinci International,Rome,Italy,8:00 AM,Charles de Gaulle,Paris,5.83
+NH7569,All Nippon Airways,Haneda,Tokyo,Japan,11:13 PM,Incheon International,Seoul,5.67
+QR9262,Qatar Airways,Hamad International,Doha,Qatar,11:15 PM,Bole International,Addis Ababa,5.04
+BA1624,British Airways,Heathrow,London,UK,6:08 AM,Amsterdam Airport Schiphol,Amsterdam,12.52
+EK4646,Emirates,Dubai International,Dubai,UAE,11:15 PM,Hamad International,Doha,19.23
+TG7112,Thai Airways,Suvarnabhumi,Bangkok,Thailand,11:24 AM,Dubai International,Dubai,8.1
+SA7437,South African Airways,O.R. Tambo International,Johannesburg,South Africa,6:41 PM,Charles de Gaulle,Paris,1.07
+AV6048,Avianca,El Dorado International,Bogotá,Colombia,5:37 PM,O'Hare International,Chicago,17.96
+ET3206,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,11:33 AM,Hamad International,Doha,3.22
+KE9708,Korean Air,Incheon International,Seoul,South Korea,3:30 PM,Kuala Lumpur International,Kuala Lumpur,2.02
+NZ8106,Air New Zealand,Auckland Airport,Auckland,New Zealand,2:13 PM,Sydney Airport,Sydney,7.45
+EK1651,Emirates,Dubai International,Dubai,UAE,12:20 PM,Hamad International,Doha,5.3
+EK1066,Emirates,Dubai International,Dubai,UAE,9:12 PM,Hamad International,Doha,23.6
+CX7920,Cathay Pacific,Hong Kong International,Hong Kong,China,1:13 AM,Dubai International,Dubai,9.51
+LA8837,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,12:51 AM,Ministro Pistarini International,Buenos Aires,6.56
+QF7452,Qantas,Sydney Airport,Sydney,Australia,9:12 AM,Changi,Singapore,16.7
+WN7692,Southwest Airlines,Los Angeles International,Los Angeles,USA,7:17 AM,San Francisco International,San Francisco,15.52
+AI2527,Air India,Indira Gandhi International,Delhi,India,2:35 PM,Chhatrapati Shivaji International,Mumbai,13.21
+AA7995,American Airlines,John F. Kennedy International,New York,USA,4:29 PM,San Francisco International,San Francisco,5.88
+AV5985,Avianca,El Dorado International,Bogotá,Colombia,5:46 AM,O'Hare International,Chicago,11.65
+BA3178,British Airways,Heathrow,London,UK,9:21 PM,Charles de Gaulle,Paris,4.67
+AA8399,American Airlines,John F. Kennedy International,New York,USA,5:10 AM,Hartsfield-Jackson Atlanta,Atlanta,18.12
+KL7456,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,4:48 AM,Charles de Gaulle,Paris,20.56
+AZ1593,Alitalia,Leonardo da Vinci International,Rome,Italy,10:29 PM,Charles de Gaulle,Paris,6.99
+SA3979,South African Airways,O.R. Tambo International,Johannesburg,South Africa,4:15 AM,Charles de Gaulle,Paris,18.81
+LH8100,Lufthansa,Frankfurt Airport,Frankfurt,Germany,11:58 PM,Charles de Gaulle,Paris,2.78
+KE7078,Korean Air,Incheon International,Seoul,South Korea,8:18 PM,Haneda,Tokyo,4.44
+SQ2544,Singapore Airlines,Changi,Singapore,Singapore,4:05 PM,Beijing Capital International,Beijing,12.11
+EK2108,Emirates,Dubai International,Dubai,UAE,8:42 PM,Hamad International,Doha,10.53
+LA3959,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,1:28 PM,Ministro Pistarini International,Buenos Aires,8.98
+AV9387,Avianca,El Dorado International,Bogotá,Colombia,12:48 PM,O'Hare International,Chicago,5.9
+KE6093,Korean Air,Incheon International,Seoul,South Korea,3:16 PM,Zurich Airport,Zurich,6.17
+SK7971,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,6:58 PM,Hartsfield-Jackson Atlanta,Atlanta,19.17
+SK4848,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,5:46 AM,Charles de Gaulle,Paris,12.37
+WN3779,Southwest Airlines,Los Angeles International,Los Angeles,USA,12:08 AM,Logan International,Boston,16.51
+QR2154,Qatar Airways,Hamad International,Doha,Qatar,6:06 AM,Brisbane Airport,Brisbane,3.91
+LA9044,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,8:09 AM,Benito Juárez International,Mexico City,5.97
+KE7320,Korean Air,Incheon International,Seoul,South Korea,4:53 AM,Haneda,Tokyo,17.51
+LH7040,Lufthansa,Frankfurt Airport,Frankfurt,Germany,7:06 AM,Charles de Gaulle,Paris,12.91
+TG1932,Thai Airways,Suvarnabhumi,Bangkok,Thailand,4:31 AM,Beijing Capital International,Beijing,3.25
+KL3781,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,4:51 AM,Charles de Gaulle,Paris,12.47
+AF4268,Air France,Charles de Gaulle,Paris,France,2:46 AM,Frankfurt Airport,Frankfurt,21.76
+TG8950,Thai Airways,Suvarnabhumi,Bangkok,Thailand,2:30 AM,Changi,Singapore,16.15
+SQ6860,Singapore Airlines,Changi,Singapore,Singapore,2:40 PM,Beijing Capital International,Beijing,3.0
+AZ2669,Alitalia,Leonardo da Vinci International,Rome,Italy,3:25 AM,Charles de Gaulle,Paris,23.97
+KE2522,Korean Air,Incheon International,Seoul,South Korea,9:20 AM,Haneda,Tokyo,10.06
+AF1042,Air France,Charles de Gaulle,Paris,France,11:44 AM,Frankfurt Airport,Frankfurt,4.0
+AM6488,Aeroméxico,Benito Juárez International,Mexico City,Mexico,7:19 AM,O'Hare International,Chicago,11.44
+AC5159,Air Canada,Toronto Pearson,Toronto,Canada,2:55 AM,John F. Kennedy International,New York,23.47
+KL8106,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,4:50 AM,Charles de Gaulle,Paris,10.63
+ET1878,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,9:19 PM,Amsterdam Airport Schiphol,Amsterdam,1.45
+DL2968,Delta Air Lines,John F. Kennedy International,New York,USA,1:22 AM,Hartsfield-Jackson Atlanta,Atlanta,2.15
+AV4562,Avianca,El Dorado International,Bogotá,Colombia,12:17 PM,O'Hare International,Chicago,5.05
+KE5983,Korean Air,Incheon International,Seoul,South Korea,8:02 PM,Haneda,Tokyo,21.6
+AC7203,Air Canada,Toronto Pearson,Toronto,Canada,9:21 PM,Hamad International,Doha,8.31
+AZ7072,Alitalia,Leonardo da Vinci International,Rome,Italy,1:31 AM,Charles de Gaulle,Paris,3.38
+NZ5791,Air New Zealand,Auckland Airport,Auckland,New Zealand,6:47 PM,Toronto Pearson,Toronto,22.6
+AM7303,Aeroméxico,Benito Juárez International,Mexico City,Mexico,2:39 PM,O'Hare International,Chicago,10.78
+KL5768,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,4:55 PM,Charles de Gaulle,Paris,9.24
+AA5562,American Airlines,John F. Kennedy International,New York,USA,8:31 AM,Hartsfield-Jackson Atlanta,Atlanta,17.93
+WN1265,Southwest Airlines,Los Angeles International,Los Angeles,USA,3:30 AM,Vancouver International,Vancouver,20.96
+EK9909,Emirates,Dubai International,Dubai,UAE,6:48 AM,Hamad International,Doha,4.09
+SK3439,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,7:38 AM,Adolfo Suárez Madrid–Barajas,Madrid,11.92
+AA3263,American Airlines,John F. Kennedy International,New York,USA,12:05 PM,Hartsfield-Jackson Atlanta,Atlanta,11.09
+SA2979,South African Airways,O.R. Tambo International,Johannesburg,South Africa,8:23 AM,Charles de Gaulle,Paris,13.32
+TG3060,Thai Airways,Suvarnabhumi,Bangkok,Thailand,12:10 AM,Changi,Singapore,19.57
+KE4403,Korean Air,Incheon International,Seoul,South Korea,5:59 AM,Haneda,Tokyo,2.83
+LH6315,Lufthansa,Frankfurt Airport,Frankfurt,Germany,2:17 PM,O.R. Tambo International,Johannesburg,6.5
+BA4260,British Airways,Heathrow,London,UK,11:44 PM,Charles de Gaulle,Paris,18.98
+ET4108,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,4:24 PM,Hamad International,Doha,16.43
+AM7303,Aeroméxico,Benito Juárez International,Mexico City,Mexico,5:35 AM,O'Hare International,Chicago,14.17
+AF9045,Air France,Charles de Gaulle,Paris,France,7:11 PM,Frankfurt Airport,Frankfurt,21.88
+WN7161,Southwest Airlines,Los Angeles International,Los Angeles,USA,2:00 AM,San Francisco International,San Francisco,15.68
+AV1794,Avianca,El Dorado International,Bogotá,Colombia,10:18 AM,Leonardo da Vinci International,Rome,12.44
+KL4926,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,2:05 PM,Charles de Gaulle,Paris,4.14
+LA2996,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,3:35 AM,Ministro Pistarini International,Buenos Aires,4.59
+IB3737,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,10:38 AM,Charles de Gaulle,Paris,18.76
+UA6595,United Airlines,Los Angeles International,Los Angeles,USA,5:09 AM,San Francisco International,San Francisco,3.22
+UA8748,United Airlines,Los Angeles International,Los Angeles,USA,4:58 AM,Seattle-Tacoma International,Seattle,7.03
+ET7187,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,11:21 PM,Hamad International,Doha,22.24
+AM5655,Aeroméxico,Benito Juárez International,Mexico City,Mexico,3:20 AM,O'Hare International,Chicago,4.36
+KL9443,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,1:32 AM,Charles de Gaulle,Paris,12.34
+IB6339,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,7:43 AM,Auckland Airport,Auckland,13.07
+AV6412,Avianca,El Dorado International,Bogotá,Colombia,2:08 PM,O'Hare International,Chicago,21.11
+LA3053,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,6:07 AM,Arturo Merino Benítez International,Santiago,18.6
+AA3272,American Airlines,John F. Kennedy International,New York,USA,10:15 AM,Hartsfield-Jackson Atlanta,Atlanta,23.9
+AV8838,Avianca,El Dorado International,Bogotá,Colombia,11:03 PM,O'Hare International,Chicago,16.05
+AA7447,American Airlines,John F. Kennedy International,New York,USA,12:29 AM,Hartsfield-Jackson Atlanta,Atlanta,20.08
+AZ3116,Alitalia,Leonardo da Vinci International,Rome,Italy,11:25 PM,Charles de Gaulle,Paris,12.22
+UA3319,United Airlines,Los Angeles International,Los Angeles,USA,9:37 PM,San Francisco International,San Francisco,21.67
+LH3854,Lufthansa,Frankfurt Airport,Frankfurt,Germany,7:07 PM,Charles de Gaulle,Paris,21.71
+EK5250,Emirates,Dubai International,Dubai,UAE,10:56 PM,Hamad International,Doha,17.88
+QR3296,Qatar Airways,Hamad International,Doha,Qatar,5:46 AM,Jomo Kenyatta International,Nairobi,13.41
+AZ8513,Alitalia,Leonardo da Vinci International,Rome,Italy,8:15 PM,John F. Kennedy International,New York,18.62
+BA3590,British Airways,Heathrow,London,UK,3:57 PM,Charles de Gaulle,Paris,12.85
+SK2256,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,6:15 PM,Charles de Gaulle,Paris,1.96
+QR5078,Qatar Airways,Hamad International,Doha,Qatar,12:05 PM,Ministro Pistarini International,Buenos Aires,2.63
+QF2015,Qantas,Sydney Airport,Sydney,Australia,3:35 AM,Melbourne Airport,Melbourne,18.88
+UA9725,United Airlines,Los Angeles International,Los Angeles,USA,9:37 PM,San Francisco International,San Francisco,6.93
+WN2211,Southwest Airlines,Los Angeles International,Los Angeles,USA,6:28 PM,San Francisco International,San Francisco,16.7
+LH6171,Lufthansa,Frankfurt Airport,Frankfurt,Germany,11:05 AM,Charles de Gaulle,Paris,22.74
+TG1866,Thai Airways,Suvarnabhumi,Bangkok,Thailand,4:29 AM,Changi,Singapore,22.25
+BA5778,British Airways,Heathrow,London,UK,12:28 AM,Charles de Gaulle,Paris,3.88
+ET1712,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,8:36 PM,Jomo Kenyatta International,Nairobi,8.63
+AC9578,Air Canada,Toronto Pearson,Toronto,Canada,4:15 AM,John F. Kennedy International,New York,1.75
+AC5159,Air Canada,Toronto Pearson,Toronto,Canada,2:11 AM,John F. Kennedy International,New York,15.09
+NZ8106,Air New Zealand,Auckland Airport,Auckland,New Zealand,9:55 AM,Sydney Airport,Sydney,10.57
+LH1740,Lufthansa,Frankfurt Airport,Frankfurt,Germany,7:08 PM,Charles de Gaulle,Paris,19.64
+NZ5940,Air New Zealand,Auckland Airport,Auckland,New Zealand,1:50 AM,Sydney Airport,Sydney,19.28
+BA8910,British Airways,Heathrow,London,UK,3:40 AM,John F. Kennedy International,New York,3.76
+NZ3672,Air New Zealand,Auckland Airport,Auckland,New Zealand,1:16 PM,Sydney Airport,Sydney,3.7
+IB9868,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,10:05 PM,Charles de Gaulle,Paris,19.56
+AM5336,Aeroméxico,Benito Juárez International,Mexico City,Mexico,5:15 PM,O'Hare International,Chicago,15.15
+QR3303,Qatar Airways,Hamad International,Doha,Qatar,11:01 AM,Bole International,Addis Ababa,15.28
+AA3153,American Airlines,John F. Kennedy International,New York,USA,1:42 PM,Hartsfield-Jackson Atlanta,Atlanta,6.1
+EK2841,Emirates,Dubai International,Dubai,UAE,8:18 AM,Changi,Singapore,11.88
+LH3940,Lufthansa,Frankfurt Airport,Frankfurt,Germany,10:36 PM,Charles de Gaulle,Paris,14.43
+KE7452,Korean Air,Incheon International,Seoul,South Korea,9:50 PM,Benito Juárez International,Mexico City,17.92
+EK1355,Emirates,Dubai International,Dubai,UAE,10:17 PM,Hamad International,Doha,7.93
+TG1360,Thai Airways,Suvarnabhumi,Bangkok,Thailand,11:48 PM,Changi,Singapore,2.25
+LH2007,Lufthansa,Frankfurt Airport,Frankfurt,Germany,5:56 AM,Charles de Gaulle,Paris,5.05
+AZ3825,Alitalia,Leonardo da Vinci International,Rome,Italy,5:21 PM,Charles de Gaulle,Paris,22.71
+AI8078,Air India,Indira Gandhi International,Delhi,India,12:20 PM,O.R. Tambo International,Johannesburg,5.0
+NH8129,All Nippon Airways,Haneda,Tokyo,Japan,9:18 AM,Incheon International,Seoul,16.51
+TG5206,Thai Airways,Suvarnabhumi,Bangkok,Thailand,4:10 PM,Changi,Singapore,3.36
+AM6970,Aeroméxico,Benito Juárez International,Mexico City,Mexico,10:19 AM,O'Hare International,Chicago,15.77
+CX3334,Cathay Pacific,Hong Kong International,Hong Kong,China,5:12 PM,Changi,Singapore,10.77
+QR1607,Qatar Airways,Hamad International,Doha,Qatar,8:23 PM,Bole International,Addis Ababa,10.43
+AZ3017,Alitalia,Leonardo da Vinci International,Rome,Italy,3:03 PM,Charles de Gaulle,Paris,21.36
+SK1423,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,1:07 AM,Charles de Gaulle,Paris,8.67
+AC2255,Air Canada,Toronto Pearson,Toronto,Canada,10:24 PM,John F. Kennedy International,New York,8.1
+WN4159,Southwest Airlines,Los Angeles International,Los Angeles,USA,12:12 AM,San Francisco International,San Francisco,14.66
+EK8848,Emirates,Dubai International,Dubai,UAE,4:16 AM,Logan International,Boston,6.69
+SK5206,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,9:48 AM,Charles de Gaulle,Paris,14.42
+ET2634,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,2:01 PM,Hamad International,Doha,15.11
+SQ7691,Singapore Airlines,Changi,Singapore,Singapore,9:04 PM,Copenhagen Airport,Copenhagen,3.52
+UA7959,United Airlines,Los Angeles International,Los Angeles,USA,2:21 AM,San Francisco International,San Francisco,17.23
+LA7812,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,7:52 AM,Seattle-Tacoma International,Seattle,6.3
+IB5615,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,12:52 PM,Charles de Gaulle,Paris,19.31
+AZ7115,Alitalia,Leonardo da Vinci International,Rome,Italy,7:08 AM,Adolfo Suárez Madrid–Barajas,Madrid,13.15
+KE3467,Korean Air,Incheon International,Seoul,South Korea,11:21 AM,Bole International,Addis Ababa,5.22
+AF5181,Air France,Charles de Gaulle,Paris,France,1:50 AM,Frankfurt Airport,Frankfurt,20.92
+TG3796,Thai Airways,Suvarnabhumi,Bangkok,Thailand,12:16 AM,Jomo Kenyatta International,Nairobi,9.22
+UA1144,United Airlines,Los Angeles International,Los Angeles,USA,6:10 AM,San Francisco International,San Francisco,7.79
+AF1748,Air France,Charles de Gaulle,Paris,France,9:01 PM,Frankfurt Airport,Frankfurt,9.27
+NZ5987,Air New Zealand,Auckland Airport,Auckland,New Zealand,9:52 PM,Sydney Airport,Sydney,5.81
+AI2711,Air India,Indira Gandhi International,Delhi,India,10:29 PM,Chhatrapati Shivaji International,Mumbai,12.01
+AM1862,Aeroméxico,Benito Juárez International,Mexico City,Mexico,2:18 AM,Arturo Merino Benítez International,Santiago,1.4
+QR9657,Qatar Airways,Hamad International,Doha,Qatar,10:49 AM,Jomo Kenyatta International,Nairobi,11.48
+LA6064,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,12:26 PM,Miami International,Miami,21.93
+ET7697,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,1:42 AM,Hamad International,Doha,21.48
+AV9841,Avianca,El Dorado International,Bogotá,Colombia,7:48 PM,O'Hare International,Chicago,20.26
+AV9464,Avianca,El Dorado International,Bogotá,Colombia,10:35 PM,O'Hare International,Chicago,7.68
+LA9322,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,1:03 AM,Hartsfield-Jackson Atlanta,Atlanta,3.61
+KE6873,Korean Air,Incheon International,Seoul,South Korea,4:35 AM,Jomo Kenyatta International,Nairobi,12.05
+AZ6073,Alitalia,Leonardo da Vinci International,Rome,Italy,6:12 PM,Heathrow,London,3.07
+IB7758,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,6:22 AM,Charles de Gaulle,Paris,21.37
+KL8992,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,5:39 AM,Charles de Gaulle,Paris,19.45
+LH1888,Lufthansa,Frankfurt Airport,Frankfurt,Germany,2:09 AM,Charles de Gaulle,Paris,23.0
+BA8519,British Airways,Heathrow,London,UK,8:56 PM,Chhatrapati Shivaji International,Mumbai,7.3
+BA7961,British Airways,Heathrow,London,UK,5:23 PM,Charles de Gaulle,Paris,23.73
+SQ7868,Singapore Airlines,Changi,Singapore,Singapore,8:05 AM,Beijing Capital International,Beijing,5.48
+NZ3326,Air New Zealand,Auckland Airport,Auckland,New Zealand,11:39 PM,Sydney Airport,Sydney,15.65
+SK5314,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,1:46 AM,Zurich Airport,Zurich,17.47
+QF8486,Qantas,Sydney Airport,Sydney,Australia,7:27 PM,Haneda,Tokyo,3.02
+AI9645,Air India,Indira Gandhi International,Delhi,India,11:09 AM,Vienna International,Vienna,22.02
+KE9074,Korean Air,Incheon International,Seoul,South Korea,12:06 PM,Haneda,Tokyo,5.93
+AM4372,Aeroméxico,Benito Juárez International,Mexico City,Mexico,10:03 PM,O'Hare International,Chicago,2.87
+IB9753,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,11:13 PM,Heathrow,London,16.64
+AM3107,Aeroméxico,Benito Juárez International,Mexico City,Mexico,7:09 AM,O'Hare International,Chicago,12.23
+BA2226,British Airways,Heathrow,London,UK,4:01 AM,Zurich Airport,Zurich,15.84
+SQ3555,Singapore Airlines,Changi,Singapore,Singapore,11:40 AM,Beijing Capital International,Beijing,22.09
+QR2546,Qatar Airways,Hamad International,Doha,Qatar,4:40 AM,Bole International,Addis Ababa,13.92
+BA2372,British Airways,Heathrow,London,UK,12:47 PM,Charles de Gaulle,Paris,17.73
+BA9110,British Airways,Heathrow,London,UK,7:35 PM,Charles de Gaulle,Paris,15.5
+KE9265,Korean Air,Incheon International,Seoul,South Korea,3:50 AM,Haneda,Tokyo,20.58
+AV2744,Avianca,El Dorado International,Bogotá,Colombia,10:22 PM,O'Hare International,Chicago,21.61
+QF8551,Qantas,Sydney Airport,Sydney,Australia,8:06 PM,Melbourne Airport,Melbourne,19.33
+AA4958,American Airlines,John F. Kennedy International,New York,USA,8:52 AM,Hartsfield-Jackson Atlanta,Atlanta,23.16
+QF4698,Qantas,Sydney Airport,Sydney,Australia,4:37 PM,Melbourne Airport,Melbourne,4.04
+LA4035,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,7:30 PM,Hamad International,Doha,17.06
+AZ7021,Alitalia,Leonardo da Vinci International,Rome,Italy,12:35 AM,Charles de Gaulle,Paris,21.59
+NH7897,All Nippon Airways,Haneda,Tokyo,Japan,10:21 PM,Cape Town International,Cape Town,18.26
+ET5592,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,2:01 PM,Hamad International,Doha,20.81
+BA5778,British Airways,Heathrow,London,UK,8:46 AM,Charles de Gaulle,Paris,6.71
+CX1515,Cathay Pacific,Hong Kong International,Hong Kong,China,6:37 AM,Changi,Singapore,22.77
+TG2442,Thai Airways,Suvarnabhumi,Bangkok,Thailand,12:47 AM,Changi,Singapore,18.75
+DL8128,Delta Air Lines,John F. Kennedy International,New York,USA,12:03 AM,Hartsfield-Jackson Atlanta,Atlanta,10.45
+AM6493,Aeroméxico,Benito Juárez International,Mexico City,Mexico,9:27 AM,Dallas/Fort Worth International,Dallas,15.14
+UA8973,United Airlines,Los Angeles International,Los Angeles,USA,10:26 PM,San Francisco International,San Francisco,10.84
+WN8141,Southwest Airlines,Los Angeles International,Los Angeles,USA,1:58 AM,San Francisco International,San Francisco,19.38
+SK7480,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,5:11 AM,Charles de Gaulle,Paris,12.77
+SK1678,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,12:30 PM,Charles de Gaulle,Paris,7.71
+SK3209,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,2:41 AM,Charles de Gaulle,Paris,22.9
+WN4006,Southwest Airlines,Los Angeles International,Los Angeles,USA,3:15 PM,San Francisco International,San Francisco,14.88
+AZ7822,Alitalia,Leonardo da Vinci International,Rome,Italy,9:35 PM,Charles de Gaulle,Paris,15.67
+NH8558,All Nippon Airways,Haneda,Tokyo,Japan,10:47 AM,Dubai International,Dubai,22.26
+SK2196,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,10:32 PM,El Dorado International,Bogotá,9.81
+AC4673,Air Canada,Toronto Pearson,Toronto,Canada,11:30 AM,Arturo Merino Benítez International,Santiago,5.77
+SQ7992,Singapore Airlines,Changi,Singapore,Singapore,3:56 AM,Brisbane Airport,Brisbane,16.59
+IB4476,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,11:17 PM,Charles de Gaulle,Paris,15.49
+CX2774,Cathay Pacific,Hong Kong International,Hong Kong,China,7:30 AM,Changi,Singapore,19.94
+AI6849,Air India,Indira Gandhi International,Delhi,India,2:36 AM,Chhatrapati Shivaji International,Mumbai,13.35
+NZ2284,Air New Zealand,Auckland Airport,Auckland,New Zealand,8:52 PM,Sydney Airport,Sydney,6.96
+UA8589,United Airlines,Los Angeles International,Los Angeles,USA,11:45 AM,Adolfo Suárez Madrid–Barajas,Madrid,9.93
+SA4414,South African Airways,O.R. Tambo International,Johannesburg,South Africa,9:32 PM,Chhatrapati Shivaji International,Mumbai,16.5
+DL7717,Delta Air Lines,John F. Kennedy International,New York,USA,2:35 AM,Hartsfield-Jackson Atlanta,Atlanta,1.97
+LH4045,Lufthansa,Frankfurt Airport,Frankfurt,Germany,2:34 AM,Charles de Gaulle,Paris,9.85
+AA4484,American Airlines,John F. Kennedy International,New York,USA,1:24 AM,Hartsfield-Jackson Atlanta,Atlanta,16.42
+NH6836,All Nippon Airways,Haneda,Tokyo,Japan,5:25 PM,Incheon International,Seoul,10.79
+UA9363,United Airlines,Los Angeles International,Los Angeles,USA,9:08 PM,San Francisco International,San Francisco,9.64
+KE1526,Korean Air,Incheon International,Seoul,South Korea,10:28 PM,Chhatrapati Shivaji International,Mumbai,12.12
+WN8234,Southwest Airlines,Los Angeles International,Los Angeles,USA,4:02 PM,Auckland Airport,Auckland,4.05
+AM9145,Aeroméxico,Benito Juárez International,Mexico City,Mexico,12:12 PM,O'Hare International,Chicago,12.66
+BA5886,British Airways,Heathrow,London,UK,3:13 PM,Brisbane Airport,Brisbane,6.07
+CX3334,Cathay Pacific,Hong Kong International,Hong Kong,China,3:35 AM,Changi,Singapore,12.37
+WN3136,Southwest Airlines,Los Angeles International,Los Angeles,USA,9:09 PM,John F. Kennedy International,New York,9.65
+CX7797,Cathay Pacific,Hong Kong International,Hong Kong,China,4:32 AM,Changi,Singapore,4.28
+AM6970,Aeroméxico,Benito Juárez International,Mexico City,Mexico,4:46 AM,O'Hare International,Chicago,5.15
+ET6025,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,10:58 AM,Changi,Singapore,6.95
+TG3079,Thai Airways,Suvarnabhumi,Bangkok,Thailand,3:08 AM,Hong Kong International,Hong Kong,11.44
+CX5078,Cathay Pacific,Hong Kong International,Hong Kong,China,3:36 AM,Changi,Singapore,4.2
+DL5196,Delta Air Lines,John F. Kennedy International,New York,USA,8:35 AM,Hartsfield-Jackson Atlanta,Atlanta,22.98
+NZ1680,Air New Zealand,Auckland Airport,Auckland,New Zealand,2:12 AM,Sydney Airport,Sydney,11.93
+AI2581,Air India,Indira Gandhi International,Delhi,India,7:29 AM,Chhatrapati Shivaji International,Mumbai,12.1
+AC7380,Air Canada,Toronto Pearson,Toronto,Canada,4:38 AM,John F. Kennedy International,New York,9.77
+SK9544,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,7:14 PM,Charles de Gaulle,Paris,21.81
+NH4854,All Nippon Airways,Haneda,Tokyo,Japan,9:34 AM,Incheon International,Seoul,12.41
+QF5992,Qantas,Sydney Airport,Sydney,Australia,2:52 PM,Charles de Gaulle,Paris,11.53
+ET1495,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,5:49 AM,Frankfurt Airport,Frankfurt,5.01
+ET5694,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,10:31 AM,Amsterdam Airport Schiphol,Amsterdam,3.9
+TG6044,Thai Airways,Suvarnabhumi,Bangkok,Thailand,7:53 PM,Changi,Singapore,2.94
+AA9121,American Airlines,John F. Kennedy International,New York,USA,5:37 PM,Hartsfield-Jackson Atlanta,Atlanta,19.79
+BA7908,British Airways,Heathrow,London,UK,5:42 PM,Charles de Gaulle,Paris,10.43
+AI9310,Air India,Indira Gandhi International,Delhi,India,12:39 PM,Changi,Singapore,16.97
+AA5224,American Airlines,John F. Kennedy International,New York,USA,12:54 AM,Hartsfield-Jackson Atlanta,Atlanta,7.46
+TG7596,Thai Airways,Suvarnabhumi,Bangkok,Thailand,4:37 PM,Seattle-Tacoma International,Seattle,2.48
+CX6106,Cathay Pacific,Hong Kong International,Hong Kong,China,8:54 AM,Changi,Singapore,7.36
+KE9386,Korean Air,Incheon International,Seoul,South Korea,10:55 PM,Sydney Airport,Sydney,1.93
+AI6834,Air India,Indira Gandhi International,Delhi,India,7:13 PM,Chhatrapati Shivaji International,Mumbai,21.14
+QR7515,Qatar Airways,Hamad International,Doha,Qatar,7:12 AM,Bole International,Addis Ababa,21.21
+KE8507,Korean Air,Incheon International,Seoul,South Korea,4:54 PM,Haneda,Tokyo,12.67
+SQ6124,Singapore Airlines,Changi,Singapore,Singapore,10:42 PM,Beijing Capital International,Beijing,17.11
+LA1908,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,10:21 PM,Ministro Pistarini International,Buenos Aires,11.41
+IB5239,Iberia,Adolfo Suárez Madrid–Barajas,Madrid,Spain,7:05 PM,Amsterdam Airport Schiphol,Amsterdam,13.52
+AA7774,American Airlines,John F. Kennedy International,New York,USA,1:23 PM,Hartsfield-Jackson Atlanta,Atlanta,1.2
+QR7454,Qatar Airways,Hamad International,Doha,Qatar,4:02 AM,Bole International,Addis Ababa,18.06
+NH3141,All Nippon Airways,Haneda,Tokyo,Japan,1:44 AM,Incheon International,Seoul,10.33
+SK1252,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,11:22 AM,Charles de Gaulle,Paris,16.26
+QF1128,Qantas,Sydney Airport,Sydney,Australia,6:54 AM,Melbourne Airport,Melbourne,20.19
+EK2641,Emirates,Dubai International,Dubai,UAE,4:40 AM,Hamad International,Doha,20.2
+SQ5275,Singapore Airlines,Changi,Singapore,Singapore,2:18 AM,Melbourne Airport,Melbourne,20.32
+SK4098,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,4:35 PM,Adolfo Suárez Madrid–Barajas,Madrid,12.69
+TG4488,Thai Airways,Suvarnabhumi,Bangkok,Thailand,10:39 AM,Changi,Singapore,1.98
+AC6909,Air Canada,Toronto Pearson,Toronto,Canada,9:25 AM,John F. Kennedy International,New York,14.39
+AM2197,Aeroméxico,Benito Juárez International,Mexico City,Mexico,8:39 AM,O'Hare International,Chicago,7.82
+DL3425,Delta Air Lines,John F. Kennedy International,New York,USA,10:15 PM,Logan International,Boston,10.98
+QF2853,Qantas,Sydney Airport,Sydney,Australia,8:30 AM,Vienna International,Vienna,18.54
+NH9125,All Nippon Airways,Haneda,Tokyo,Japan,7:25 AM,Incheon International,Seoul,4.42
+QR7416,Qatar Airways,Hamad International,Doha,Qatar,4:40 AM,Suvarnabhumi,Bangkok,1.75
+LH3012,Lufthansa,Frankfurt Airport,Frankfurt,Germany,4:18 PM,Charles de Gaulle,Paris,19.68
+KL8738,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,2:31 PM,Chhatrapati Shivaji International,Mumbai,6.89
+KE1926,Korean Air,Incheon International,Seoul,South Korea,1:52 AM,Haneda,Tokyo,7.66
+SQ2653,Singapore Airlines,Changi,Singapore,Singapore,5:59 AM,Beijing Capital International,Beijing,4.43
+AZ8044,Alitalia,Leonardo da Vinci International,Rome,Italy,11:14 PM,Charles de Gaulle,Paris,4.94
+AI2595,Air India,Indira Gandhi International,Delhi,India,10:06 AM,Chhatrapati Shivaji International,Mumbai,13.97
+QR3382,Qatar Airways,Hamad International,Doha,Qatar,12:08 PM,Bole International,Addis Ababa,8.45
+NH8860,All Nippon Airways,Haneda,Tokyo,Japan,10:46 AM,Incheon International,Seoul,11.45
+QR3327,Qatar Airways,Hamad International,Doha,Qatar,3:00 PM,Incheon International,Seoul,23.45
+LA3981,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,3:00 PM,Ministro Pistarini International,Buenos Aires,9.12
+ET4335,Ethiopian Airlines,Bole International,Addis Ababa,Ethiopia,1:11 PM,Hamad International,Doha,5.28
+QR1958,Qatar Airways,Hamad International,Doha,Qatar,1:32 AM,Ministro Pistarini International,Buenos Aires,16.02
+AA7542,American Airlines,John F. Kennedy International,New York,USA,7:01 PM,Toronto Pearson,Toronto,18.51
+NH9125,All Nippon Airways,Haneda,Tokyo,Japan,9:36 PM,Incheon International,Seoul,4.14
+AV9215,Avianca,El Dorado International,Bogotá,Colombia,10:38 PM,O'Hare International,Chicago,5.47
+SK1604,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,6:50 AM,Charles de Gaulle,Paris,2.9
+UA2884,United Airlines,Los Angeles International,Los Angeles,USA,12:31 PM,Seattle-Tacoma International,Seattle,3.07
+AI3634,Air India,Indira Gandhi International,Delhi,India,11:31 AM,Chhatrapati Shivaji International,Mumbai,9.84
+AI2516,Air India,Indira Gandhi International,Delhi,India,11:59 AM,Chhatrapati Shivaji International,Mumbai,19.72
+AA8464,American Airlines,John F. Kennedy International,New York,USA,11:25 AM,Hartsfield-Jackson Atlanta,Atlanta,23.58
+WN9133,Southwest Airlines,Los Angeles International,Los Angeles,USA,6:48 AM,San Francisco International,San Francisco,21.88
+AF8075,Air France,Charles de Gaulle,Paris,France,6:44 AM,Frankfurt Airport,Frankfurt,8.06
+KE6811,Korean Air,Incheon International,Seoul,South Korea,11:46 PM,Haneda,Tokyo,4.52
+EK7537,Emirates,Dubai International,Dubai,UAE,4:46 PM,Hamad International,Doha,10.08
+KE1438,Korean Air,Incheon International,Seoul,South Korea,5:14 PM,Changi,Singapore,8.77
+SK4476,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,10:11 PM,Charles de Gaulle,Paris,8.05
+AC8181,Air Canada,Toronto Pearson,Toronto,Canada,11:36 PM,John F. Kennedy International,New York,16.84
+BA7341,British Airways,Heathrow,London,UK,11:15 AM,Charles de Gaulle,Paris,2.56
+SA7375,South African Airways,O.R. Tambo International,Johannesburg,South Africa,3:13 PM,Charles de Gaulle,Paris,14.24
+KL7531,KLM Royal Dutch Airlines,Amsterdam Airport Schiphol,Amsterdam,Netherlands,5:49 AM,Charles de Gaulle,Paris,12.2
+SA5698,South African Airways,O.R. Tambo International,Johannesburg,South Africa,9:14 AM,Charles de Gaulle,Paris,2.26
+QR3188,Qatar Airways,Hamad International,Doha,Qatar,9:16 PM,Beijing Capital International,Beijing,4.65
+KE6046,Korean Air,Incheon International,Seoul,South Korea,3:00 AM,Haneda,Tokyo,21.9
+UA2285,United Airlines,Los Angeles International,Los Angeles,USA,4:15 AM,San Francisco International,San Francisco,4.78
+SA8349,South African Airways,O.R. Tambo International,Johannesburg,South Africa,5:32 AM,Dallas/Fort Worth International,Dallas,6.45
+LH7474,Lufthansa,Frankfurt Airport,Frankfurt,Germany,7:34 PM,Cairo International,Cairo,16.74
+AF8339,Air France,Charles de Gaulle,Paris,France,3:14 PM,Frankfurt Airport,Frankfurt,16.16
+SQ7617,Singapore Airlines,Changi,Singapore,Singapore,11:40 PM,São Paulo/Guarulhos International,São Paulo,12.39
+AF3915,Air France,Charles de Gaulle,Paris,France,1:47 AM,Frankfurt Airport,Frankfurt,15.61
+SK6623,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,1:23 PM,Leonardo da Vinci International,Rome,1.28
+BA2318,British Airways,Heathrow,London,UK,11:20 PM,Indira Gandhi International,Delhi,12.81
+LA7613,LATAM Airlines,São Paulo/Guarulhos International,São Paulo,Brazil,3:13 AM,Ministro Pistarini International,Buenos Aires,3.84
+AM9674,Aeroméxico,Benito Juárez International,Mexico City,Mexico,5:23 PM,O'Hare International,Chicago,12.34
+DL3294,Delta Air Lines,John F. Kennedy International,New York,USA,7:44 PM,Hartsfield-Jackson Atlanta,Atlanta,8.57
+DL8435,Delta Air Lines,John F. Kennedy International,New York,USA,7:27 AM,Amsterdam Airport Schiphol,Amsterdam,16.96
+SK5197,SAS Scandinavian,Copenhagen Airport,Copenhagen,Denmark,1:51 AM,Vienna International,Vienna,11.23

@@ -21,6 +21,7 @@ const { Dragger } = Upload;
 const HomeScreen = () => {
     const dispatch = useAppDispatch();
   const {progress,currentFile} = useAppSelector((state) => state.main);
+  const state = useAppSelector((state) => state);
   const navigate = useNavigate();
   const MAX_FILE_SIZE_MB = 10; // set limit here
   const props = {
@@ -37,33 +38,19 @@ const HomeScreen = () => {
         message.error("Only CSV or Excel files are allowed.");
         return Upload.LIST_IGNORE;
       }
-
-      const isTooLarge =
-        file.size / 1024 / 1024 > MAX_FILE_SIZE_MB;
-      if (isTooLarge) {
-        message.error(
-          `File must be smaller than ${MAX_FILE_SIZE_MB}MB.`
-        );
-        return Upload.LIST_IGNORE;
-      }
-
       console.log("File ready:", file);
       dispatch(setUploadFile(file));
       return false; // prevent auto-upload for now
     },
     onChange(info: { file: UploadFile; fileList: UploadFile[] }) {
-      const { status, name, percent } = info.file;
-
-      if (percent) {
-        // setUploadProgress(Math.floor(percent));
-      }
+      const { status, name } = info.file;
 
       if (status === "done") {
         message.success(`${name} file uploaded successfully.`);
-        // setUploadProgress(100);
+
       } else if (status === "error") {
         message.error(`${name} file upload failed.`);
-        // setUploadProgress(0);
+
       }
     },
   };
@@ -123,6 +110,8 @@ const HomeScreen = () => {
               className="mt-4"
               onClick={() => {
                 dispatch(resetState());
+                dispatch(setUploadFile(null));
+                console.log("Resetting state...", currentFile, progress,state);
                 message.info("Upload canceled.");
               }}
             >

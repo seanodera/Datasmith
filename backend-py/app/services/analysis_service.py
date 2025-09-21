@@ -4,155 +4,159 @@ from datetime import datetime
 from typing import Dict, Any, Optional
 import uuid
 
+from .field_detector import infer_column_semantic_type
+from .analyzers import (
+    date_analysis,
+    analyze_currency,
+    analyze_boolean,
+    analyze_numeric,
+    analyze_string,
+    analyze_id
+)
+
+
 def analyze_dataframe(df: pd.DataFrame, group_by_column: Optional[str] = None) -> Dict[str, Any]:
     """
-    Comprehensive analysis of DataFrame for duplicates and statistical measures.
-    
-    Args:
-        df: pandas DataFrame to analyze
-        group_by_column: Optional column name for group-wise analysis
-    
-    Returns:
-        Dictionary containing comprehensive analysis results
+    Comprehensive analysis of DataFrame for duplicates, data quality, and semantic insights.
     """
-    results = {
-        'analysis_id': str(uuid.uuid4()),
-        'analysis_timestamp': datetime.utcnow().isoformat(),
-        'metadata': {
-            'total_rows': len(df),
-            'total_columns': len(df.columns),
-            'columns': list(df.columns),
-            'data_types': {col: str(df[col].dtype) for col in df.columns},
-            'memory_usage': f"{df.memory_usage(deep=True).sum() / 1024 / 1024:.2f} MB"
-        },
-        'duplicate_analysis': {},
-        'numerical_analysis': {},
-        'categorical_analysis': {},
-        'data_quality': {
-            'complete_duplicates_count': df.duplicated().sum(),
-            'total_missing_values': df.isnull().sum().sum(),
-            'missing_values_by_column': df.isnull().sum().to_dict()
-        }
-    }
-    print(f"DataFrame has {len(df)} rows and {len(df.columns)} columns.")
-    # Analyze each column
-    for column in df.columns:
-        print(f"Analyzing column: {column}")
-        # Duplicate analysis for all columns
-        duplicate_count = df.duplicated(subset=[column]).sum()
-        results['duplicate_analysis'][column] = {
-            'duplicate_count': duplicate_count,
-            'unique_count': df[column].nunique(),
-            'duplicate_percentage': (duplicate_count / len(df)) * 100 if len(df) > 0 else 0,
-            'most_common_value': _get_most_common_value(df[column]),
-            'most_common_count': _get_most_common_count(df[column])
-        }
-        
-            # Numerical column analysis
-        def _safe_float(val):
-            if pd.isna(val) or np.isinf(val):
-                return None
-            return float(val)
 
-        if pd.api.types.is_numeric_dtype(df[column]):
-            print(f"Performing numerical analysis for column: {column}")
-            results['numerical_analysis'][column] = {
-                'mean': _safe_float(df[column].mean()),
-                'median': _safe_float(df[column].median()),
-                'min': _safe_float(df[column].min()),
-                'max': _safe_float(df[column].max()),
-                'std': _safe_float(df[column].std()),
-                'q1': _safe_float(df[column].quantile(0.25)),
-                'q3': _safe_float(df[column].quantile(0.75)),
-                'missing_values': int(df[column].isnull().sum()),
-                'zero_values': int((df[column] == 0).sum()) if df[column].dtype != 'bool' else 0
-            }
-        
-        # Categorical column analysis
-        elif pd.api.types.is_string_dtype(df[column]) or pd.api.types.is_categorical_dtype(df[column]):
-            value_counts = df[column].value_counts().to_dict()
-            print(f"Performing categorical analysis for column: {column}")
-            results['categorical_analysis'][column] = {
-                'unique_values': len(value_counts),
-                'value_distribution': value_counts,
-                'most_common_value': max(value_counts, key=value_counts.get) if value_counts else None,
-                'most_common_count': max(value_counts.values()) if value_counts else 0,
-                'missing_values': int(df[column].isnull().sum())
-            }
-    
-    # Group analysis if specified
+    results = {
+        "analysis_id": str(uuid.uuid4()),
+        "analysis_timestamp": datetime.utcnow().isoformat(),
+        "metadata": {
+            "total_rows": len(df),
+            "total_columns": len(df.columns),
+            "columns": list(df.columns),
+            "data_types": {col: str(df[col].dtype) for col in df.columns},
+            "memory_usage": f"{df.memory_usage(deep=True).sum() / 1024 / 1024:.2f} MB",
+        },
+        "duplicate_analysis": {},
+        "numerical_analysis": {},
+        "data_quality": {
+            "complete_duplicates_count": df.duplicated().sum(),
+            "total_missing_values": int(df.isnull().sum().sum()),
+            "missing_values_by_column": df.isnull().sum().to_dict(),
+        },
+        "columns": [],
+    }
+
+    for column in df.columns:
+        col_series = df[column]
+        semantic_type = infer_column_semantic_type(col_series)
+
+        # Duplicate + frequency profile
+        results["duplicate_analysis"][column] = {
+            "duplicate_count": df.duplicated(subset=[column]).sum(),
+            "unique_count": col_series.nunique(),
+            "duplicate_percentage": (df.duplicated(subset=[column]).sum() / len(df)) * 100 if len(df) else 0,
+            "most_common_value": _get_most_common_value(col_series),
+            "most_common_count": _get_most_common_count(col_series),
+            "unique_values": col_series.dropna().unique().tolist(),
+            "value_distribution": col_series.value_counts(dropna=False).to_dict(),
+            "missing_values": int(col_series.isnull().sum()),
+        }
+
+        # Run semantic-specific analyzers
+        analyzers = {
+            "date": date_analysis,
+            "currency": analyze_currency,
+            "boolean": analyze_boolean,
+            "numeric": analyze_numeric,
+            "string": analyze_string,
+            "id": analyze_id,
+        }
+        print(f"Analyzing column {column} with semantic type {semantic_type}")
+
+
+        if semantic_type in analyzers:
+            analysis = analyzers[semantic_type](col_series)
+            results["columns"].append(
+                {"name": column, "type": semantic_type, "analysis": analysis}
+            )
+
+        # Generic numeric analysis (for true numeric dtype)
+        if pd.api.types.is_numeric_dtype(col_series):
+            results["numerical_analysis"][column] = _summarize_numeric(col_series)
+
+    # Optional group-by analysis
     if group_by_column and group_by_column in df.columns:
-        results['group_analysis'] = _perform_group_analysis(df, group_by_column)
-    def convert_to_serializable(obj):
-        if isinstance(obj, (np.integer, np.int64)):
-            return int(obj)
-        elif isinstance(obj, (np.floating, np.float64)):
-            if pd.isna(obj) or np.isinf(obj):
-                return None
-            return float(obj)
-        elif isinstance(obj, np.ndarray):
-            return [convert_to_serializable(x) for x in obj.tolist()]
-        elif isinstance(obj, pd.Timestamp):
-            return obj.isoformat()
-        elif isinstance(obj, pd.Interval):
-            return str(obj)
-        elif isinstance(obj, dict):
-            return {k: convert_to_serializable(v) for k, v in obj.items()}
-        elif isinstance(obj, list):
-            return [convert_to_serializable(item) for item in obj]
-        else:
-            return obj
-    
-    serializable_results = convert_to_serializable(results)
-    return serializable_results
+        results["group_analysis"] = _perform_group_analysis(df, group_by_column)
+
+    return _make_serializable(results)
+
+
+def _summarize_numeric(series: pd.Series) -> Dict[str, Any]:
+    """Basic stats for numeric columns."""
+    def _safe(val):
+        return None if pd.isna(val) or np.isinf(val) else float(val)
+
+    return {
+        "mean": _safe(series.mean()),
+        "median": _safe(series.median()),
+        "min": _safe(series.min()),
+        "max": _safe(series.max()),
+        "std": _safe(series.std()),
+        "q1": _safe(series.quantile(0.25)),
+        "q3": _safe(series.quantile(0.75)),
+        "missing_values": int(series.isnull().sum()),
+        "zero_values": int((series == 0).sum()) if series.dtype != "bool" else 0,
+    }
+
 
 def _get_most_common_value(series: pd.Series) -> Any:
-    """Get the most common value in a series"""
     mode = series.mode()
     return mode.iloc[0] if not mode.empty else None
 
+
 def _get_most_common_count(series: pd.Series) -> int:
-    """Get the count of the most common value"""
     value_counts = series.value_counts()
-    return value_counts.iloc[0] if not value_counts.empty else 0
+    return int(value_counts.iloc[0]) if not value_counts.empty else 0
+
 
 def _perform_group_analysis(df: pd.DataFrame, group_column: str) -> Dict[str, Any]:
-    """Perform group-wise analysis"""
+    """Perform group-wise analysis with stats per group."""
     group_results = {}
-    
     try:
         if pd.api.types.is_numeric_dtype(df[group_column]):
-            # For numerical grouping, create bins
             df_grouped = df.copy()
             try:
-                df_grouped['group_bin'] = pd.qcut(df_grouped[group_column], q=4, duplicates='drop')
-                groups = df_grouped.groupby('group_bin')
-            except:
-                df_grouped['group_bin'] = pd.cut(df_grouped[group_column], bins=5)
-                groups = df_grouped.groupby('group_bin')
+                df_grouped["group_bin"] = pd.qcut(df_grouped[group_column], q=4, duplicates="drop")
+            except Exception:
+                df_grouped["group_bin"] = pd.cut(df_grouped[group_column], bins=5)
+            groups = df_grouped.groupby("group_bin")
         else:
             groups = df.groupby(group_column)
-        
+
         for group_name, group_data in groups:
-            group_stats = {}
-            
-            # Calculate statistics for numerical columns in this group
-            numerical_cols = group_data.select_dtypes(include=[np.number]).columns
-            for num_col in numerical_cols:
-                if num_col != group_column:
-                    group_stats[num_col] = {
-                        'mean': float(group_data[num_col].mean()),
-                        'count': int(group_data[num_col].count()),
-                        'min': float(group_data[num_col].min()),
-                        'max': float(group_data[num_col].max())
-                    }
-            
+            stats = {}
+            for num_col in group_data.select_dtypes(include=[np.number]).columns.drop(group_column, errors="ignore"):
+                stats[num_col] = {
+                    "mean": float(group_data[num_col].mean()),
+                    "count": int(group_data[num_col].count()),
+                    "min": float(group_data[num_col].min()),
+                    "max": float(group_data[num_col].max()),
+                }
             group_results[str(group_name)] = {
-                'row_count': len(group_data),
-                'numerical_stats': group_stats
+                "row_count": len(group_data),
+                "numerical_stats": stats,
             }
-            
     except Exception as e:
-        group_results['error'] = f"Group analysis failed: {str(e)}"
-    
+        group_results["error"] = f"Group analysis failed: {e}"
     return group_results
+
+
+def _make_serializable(obj):
+    """Convert numpy/pandas types to JSON serializable."""
+    if isinstance(obj, (np.integer,)):
+        return int(obj)
+    if isinstance(obj, (np.floating,)):
+        return None if pd.isna(obj) or np.isinf(obj) else float(obj)
+    if isinstance(obj, (pd.Timestamp,)):
+        return obj.isoformat()
+    if isinstance(obj, (pd.Interval,)):
+        return str(obj)
+    if isinstance(obj, (np.ndarray, list, tuple)):
+        return [_make_serializable(x) for x in obj]
+    if isinstance(obj, dict):
+        return {k: _make_serializable(v) for k, v in obj.items()}
+    return obj

@@ -1,7 +1,9 @@
-import { AnalysisResponse } from "@/types";
-import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import axios, { AxiosError } from "axios";
+import {AnalysisResponse} from "@/types";
+import {createAsyncThunk, createSlice, PayloadAction} from "@reduxjs/toolkit";
+import axios, {AxiosError} from "axios";
+import {parseFileAsync} from "@/store/parseFileAsync.tsx";
 
+const serverUrl = import.meta.env.VITE_SERVER_DOMAIN ?? 'http://localhost:8000';
 interface MainState {
   analysisData: null | AnalysisResponse;
   header: boolean, // first row = column headers
@@ -11,6 +13,10 @@ interface MainState {
   loading: boolean;
   error: null | string;
   progress: number; // upload progress
+  data?: Record<string, string | number>[];
+  columns?: { title: string; dataIndex: string; key: string; }[];
+  perPage?: number;
+  parsing: boolean;
 }
 
 const initialState: MainState = {
@@ -21,7 +27,8 @@ const initialState: MainState = {
   loading: false,
   error: null,
   progress: 0,
-  theme: "light"
+  theme: "light",
+  parsing: false
 };
 
 // Async thunk with Axios upload progress
@@ -35,7 +42,7 @@ export const UploadFileAsync = createAsyncThunk<
     formData.append("file", file);
 
     const response = await axios.post<AnalysisResponse>(
-      "http://localhost:8000/api/v1/analyze",
+      `${serverUrl}/api/v1/analyze`,
       formData,
       {
         headers: {
@@ -54,6 +61,7 @@ export const UploadFileAsync = createAsyncThunk<
 
     return response.data;
   } catch (error) {
+    console.error("Upload error:", error);
     if (axios.isAxiosError(error)) {
       const axiosError = error as AxiosError;
       if (axiosError.response) {
@@ -75,6 +83,10 @@ export const UploadFileAsync = createAsyncThunk<
   }
 });
 
+
+
+
+
 const MainSlice = createSlice({
   name: "main",
   initialState,
@@ -93,11 +105,9 @@ const MainSlice = createSlice({
       state.theme = action.payload;
     },
     resetState(state) {
-      state.analysisData = null;
-      state.currentFile = null;
-      state.loading = false;
-      state.error = null;
-      state.progress = 0;
+      const theme = state.theme;
+      state = {...initialState,theme};
+      console.log("Resetting state...", state);
     },
   },
   extraReducers: (builder) => {
@@ -116,6 +126,22 @@ const MainSlice = createSlice({
         state.loading = false;
         state.error = action.payload as string;
       });
+    builder.addCase(parseFileAsync.pending, (state) => {
+      state.parsing = true;
+      state.data = undefined;
+      state.columns = undefined;
+    })
+        .addCase(parseFileAsync.fulfilled, (state,action) => {
+          state.parsing = false;
+          state.data = action.payload.data;
+          state.columns = action.payload.columns;
+        })
+        .addCase(parseFileAsync.rejected, (state,action) => {
+          state.parsing = false;
+          state.error = action.payload as string;
+          state.data= undefined;
+          state.columns = undefined;
+        })
   },
 });
 

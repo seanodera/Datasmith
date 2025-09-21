@@ -92,7 +92,7 @@ export default function Overview() {
         {/* Categorical Columns */}
       <Card>
         <Title level={4}>Categorical Columns Summary</Title>
-        {Object.keys(categorical_analysis).length === 0 ? (
+        {!categorical_analysis || Object.keys(categorical_analysis).length === 0 ? (
           <Text>No categorical columns found.</Text>
         ) : (
           Object.entries(categorical_analysis).map(([colName, stats]) => (

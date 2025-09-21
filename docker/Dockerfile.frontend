@@ -1,0 +1,26 @@
+# Base image
+FROM node:20-slim
+
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Copy only package files for dependency caching
+COPY frontend-ts/package.json frontend-ts/yarn.lock ./
+
+RUN yarn install --frozen-lockfile
+
+# Copy frontend code and backup for mount
+COPY frontend-ts/ ./
+
+# Expose Vite dev server
+EXPOSE 5173
+
+# CMD: run in mounted volume, install deps if missing
+CMD ["sh", "-c", "\
+  if [ -z \"$(ls -A /app)\" ]; then echo 'Mount empty, populating...' && cp -r /app_backup/* /app/; fi && \
+  if [ ! -d node_modules ]; then echo 'Installing dependencies...' && yarn install; fi && \
+  yarn dev --host 0.0.0.0 \
+"]
+
+
